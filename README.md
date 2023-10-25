@@ -32,7 +32,7 @@ Explore various fractals with Python scripts and Jupyter notebooks. This project
 Contributions are more than welcome! Feel free to submit pull requests or report issues. This project serves not only as an educational resource but also as a platform for collective problem-solving and programming practice.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License v2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Credits
 Created entirely by Wojciech Kośnik-Kowalczuk
