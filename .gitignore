@@ -1,4 +1,5 @@
-# Ignore folders names test and their contents
+
+# Ignore folders named TEST and their contents
 TEST/
 
 # Byte-compiled / optimized / DLL files
