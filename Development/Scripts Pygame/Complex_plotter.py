@@ -20,7 +20,7 @@ constant_coefficient = sys.argv[5]
 constant_coefficient = 2'''
 acttractor_str = 'f(z) = z² + ' + str(constant_coefficient)
 
-# Functions
+# Utility functions
 # Maps complex numbers to screen coordinates
 def complex_to_screen(re_z, im_z, width, height, plane_range):
     x = int(((re_z - plane_range[0]) / (plane_range[1] - plane_range[0])) * width)
