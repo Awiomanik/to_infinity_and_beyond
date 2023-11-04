@@ -24,8 +24,7 @@ Explore various fractals with Python scripts and Jupyter notebooks. This project
 ## Content:
 
 └── **Development** <br>
-&nbsp;&nbsp;&nbsp;&nbsp;└── **Scripts**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── [Complex_plotter.py](Complex_plotter.py)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── [Complex_plotter.py](Complex_plotter.py)<br>
 <!-- indent the block below somehow later -->
 This script serves as a complex plotter using Pygame, aimed at aiding in the visualization of fractals. This is a proof-of-concept and will probably not be used directly in the final project. It serves as a sandbox for exploring and implementing a variety of functionalities and concepts such as full-screen display, command-line argument processing, and complex number visualization.
 
@@ -46,7 +45,8 @@ $$a(z) = z^{2} + constant\_coefficiant$$
 - Lots of fractals ;)
   
 ## Contributing
-Contributions are more than welcome! Feel free to submit pull requests or report issues. This project serves not only as an educational resource but also as a platform for collective problem-solving and programming practice.
+Contributions are more than welcome!<br>
+Feel free to submit pull requests or report issues. This project serves not only as an educational resource but also as a platform for collective problem-solving and programming practice.
 
 ## License
 This project is licensed under the Apache License v2.0 - see the [LICENSE](LICENSE) file for details.
