@@ -23,7 +23,7 @@ Explore various fractals with Python scripts and Jupyter notebooks. This project
 
 ## Content:
 
-└── **Development** <br>
+└── **Tools** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;└── [Complex_plotter.py](Complex_plotter.py)<br>
 <!-- indent the block below somehow later -->
 This script serves as a complex plotter using Pygame, aimed at aiding in the visualization of fractals. This is a proof-of-concept and will probably not be used directly in the final project. It serves as a sandbox for exploring and implementing a variety of functionalities and concepts such as full-screen display, command-line argument processing, and complex number visualization.
