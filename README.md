@@ -36,7 +36,7 @@ In the directory of plotter run console command:<br>
 **Parameters:**<br>
 `plane_range`: A tuple indicating the range of the complex plane to be plotted ($R_{min}, R_{max}, I_{min}, I_{max}$).<br>
 `constant_coefficient`: The coefficient for the fractal attractor.
-$$a(z) = z^{2} + constant\_coefficiant$$
+$$a(z) = z^{2} + constant\ coefficiant$$
 
 ## Features
 - Interactive Python notebooks for learning about various fractal sets, including the Mandelbrot set, Julia sets, and more.
