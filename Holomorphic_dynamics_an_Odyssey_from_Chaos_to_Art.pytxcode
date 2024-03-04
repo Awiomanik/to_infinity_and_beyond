@@ -1,0 +1,53 @@
+=>PYTHONTEX#py#default#default#0#code#####56#
+def function(n):
+    z = 1.6181
+    a = z
+    for i in range(n):
+        z = z**2 - 1
+    return [f"{z:.4f}",a]
+n = 10
+=>PYTHONTEX#py#default#default#1#i#####195#
+n-2
+=>PYTHONTEX#py#default#default#2#i#####196#
+n-1
+=>PYTHONTEX#py#default#default#3#i#####197#
+n
+=>PYTHONTEX#py#default#default#4#i#####198#
+function(1)[1]
+=>PYTHONTEX#py#default#default#5#i#####199#
+function(1)[0]
+=>PYTHONTEX#py#default#default#6#i#####200#
+function(2)[0]
+=>PYTHONTEX#py#default#default#7#i#####201#
+function(3)[0]
+=>PYTHONTEX#py#default#default#8#i#####203#
+function(n-2)[0]
+=>PYTHONTEX#py#default#default#9#i#####204#
+function(n-1)[0]
+=>PYTHONTEX#py#default#default#10#i#####205#
+function(n)[0]
+=>PYTHONTEX:SETTINGS#
+version=0.18
+outputdir=pythontex-files-Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art
+workingdir=.
+workingdirset=false
+gobble=none
+rerun=default
+hashdependencies=default
+makestderr=false
+stderrfilename=full
+keeptemps=none
+pyfuture=default
+pyconfuture=none
+pygments=true
+pygglobal=:GLOBAL||
+fvextfile=-1
+pyconbanner=none
+pyconfilename=stdin
+depythontex=false
+pygfamily=py|python3|
+pygfamily=pycon|pycon|
+pygfamily=sympy|python3|
+pygfamily=sympycon|pycon|
+pygfamily=pylab|python3|
+pygfamily=pylabcon|pycon|

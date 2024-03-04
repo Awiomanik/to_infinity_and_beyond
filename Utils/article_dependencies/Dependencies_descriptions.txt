@@ -1,0 +1,61 @@
+graphic_1.png
+(render of z^2 -1 function to be attached to a proper parragraph)
+
+function: 			f(z_k) = z_k-1^2 - 1
+range:				-2 to 2 and -1i to i
+calculated iterations:		256
+magnitude of divergence:	50
+rsolution: 			5000 x 2500 px
+Note:
+Values of indicating divergance where subjected to the fourth root operation 
+and mapped with linear mapping function "gist_heat" from matplotlib standard module
+for clear and vivid representation of the set.
+
+
+graphic_2.png
+(nice render for a title page)
+
+function: 			f(z_k) = z_k-1^2 -0.8 + 0.156i
+range:				-0.016 to 0.016 and -0.009i to 0.009i
+calculated iterations:		256
+magnitude of divergence:	2
+rsolution: 			6400 x 3600 px
+
+
+graphic_3.png
+(mandelbrot set)
+
+function: 			f(z_k) = z_k-1^2 + complex_coordinate
+range:				-2.2 to 0.8 and -1.5i to 1.5i
+calculated iterations:		256
+magnitude of divergence:	4
+rsolution: 			10000 x 10000 px
+Note:
+Values of indicating divergance where subjected to the fourth root operation 
+and values of 0 were casted to 1 for clear and vivid representation.
+
+
+graphic_4.gif
+(Mandelbrot self-similarity zoom)
+
+function: 			f(z_k) = z_k-1^2 + complex_coordinate
+range:				from (-2.2 to 0.8 and -1.5i to 1.5i) to (-1.51755 to -1.51745 and -0.00005i to 0.00005i)
+calculated iterations:		256
+magnitude of divergence:	2
+rsolution: 			1080 x 1080 px
+Frames:				300
+Frame duration:			50 ms
+Note:
+Zooming reduces range on logarythmic scale with base 2000
+
+graphic_5.gif
+(Julia sets for chaos paragraph)
+
+function: 			f(z_k) = z_k-1^2 + complex_coordinate
+range:				-2 to 2 and -2i to 2i
+calculated iterations:		256
+magnitude of divergence:	2
+rsolution: 			800 x 800 px
+Note:
+complex_coordinate value ranges from -1 to 1
+
