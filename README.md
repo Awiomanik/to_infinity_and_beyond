@@ -13,10 +13,9 @@ Explore various fractals with Python shell scripts Jupyter notebooks and LaTex d
 ## Table of Contents
 - [Objectives](#objectives)
 - [Content](#content)
-- [Usage](#Usage)
+- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-<!--- [Features](#features)-->
 - [Credits](#credits)
 - [Disclaimer](#disclaimer)
 
@@ -28,27 +27,27 @@ Explore various fractals with Python shell scripts Jupyter notebooks and LaTex d
 
 ## Content:
 
-└── [Holomorphic dynamics an Odyssey from Chaos to Art (.tex)](Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.tex)
-└── [Holomorphic dynamics an Odyssey from Chaos to Art (.pdf)](Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.pdf)
-└── [Executable code from snippets in paper (Jupyter notebook)](Executable_code_from_snippets_in_paper.ipynb)
-└── [Rendering tool (shell script)](Rendering_tool.py)
-└── **Utils**
-&nbsp;|&nbsp;&nbsp;└── [future plans (markdown)](Utils\future_plans.md)
-&nbsp;|&nbsp;&nbsp;└── **Antialiasing**
-&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── `still in development`
-&nbsp;|&nbsp;&nbsp;└── **article_dependencies**
-&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── [Dependencies descriptions (txt)](Utils\Implementation_chapter\Dependencies_descriptions.txt)
-&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── **Honorble_mentions**
-&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── Python scripts for rendering
-&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── **Implementation_chapter**
-&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── Renders used in main paper
-&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── Renders and grphics used in main paper
-&nbsp;|&nbsp;&nbsp;└── **Plotters**
-&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── `still in development`
-&nbsp;|&nbsp;&nbsp;└── **Renderers**
-&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── `still in development`
-└── **pythontex-files-holomorphic_dynamics_an_odyssey_from_chaos_to_art**
-&nbsp;&nbsp;&nbsp;&nbsp;└── Python dependencies for tex
+└── [Holomorphic dynamics an Odyssey from Chaos to Art (.tex)](Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.tex)</br>
+└── [Holomorphic dynamics an Odyssey from Chaos to Art (.pdf)](Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.pdf)</br>
+└── [Executable code from snippets in paper (Jupyter notebook)](Executable_code_from_snippets_in_paper.ipynb)</br>
+└── [Rendering tool (shell script)](Rendering_tool.py)</br>
+└── **Utils**</br>
+&nbsp;|&nbsp;&nbsp;└── [future plans (markdown)](Utils\future_plans.md)</br>
+&nbsp;|&nbsp;&nbsp;└── **Antialiasing**</br>
+&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── `still in development`</br>
+&nbsp;|&nbsp;&nbsp;└── **article_dependencies**</br>
+&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── [Dependencies descriptions (txt)](Utils\Implementation_chapter\Dependencies_descriptions.txt)</br>
+&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── **Honorble_mentions**</br>
+&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── Python scripts for rendering</br>
+&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── **Implementation_chapter**</br>
+&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── Renders used in main paper</br>
+&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── Renders and grphics used in main paper</br>
+&nbsp;|&nbsp;&nbsp;└── **Plotters**</br>
+&nbsp;|&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;└── `still in development`</br>
+&nbsp;|&nbsp;&nbsp;└── **Renderers**</br>
+&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── `still in development`</br>
+└── **pythontex-files-holomorphic_dynamics_an_odyssey_from_chaos_to_art**</br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── Python dependencies for tex</br>
 <br>
 <!-- describe contents -->
 
