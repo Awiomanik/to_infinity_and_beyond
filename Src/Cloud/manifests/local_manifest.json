@@ -1,0 +1,560 @@
+[
+  {
+    "name": "test_nipy_spectral.png",
+    "path_relative_to_root": "Src/Antialiasing (still in development)/renders_aa/test_nipy_spectral.png",
+    "size_in_bytes": 634382,
+    "sha256": "da8d5ff91eb42cecc28d49e8425427875e22a2e9046d870d81b3946c4b81167b"
+  },
+  {
+    "name": "test_nipy_spectral_aa_gaussian_2x2_1.0.png",
+    "path_relative_to_root": "Src/Antialiasing (still in development)/renders_aa/test_nipy_spectral_aa_gaussian_2x2_1.0.png",
+    "size_in_bytes": 414493,
+    "sha256": "29794d4d45b6c7514e50ed607e74bdac24f10293e06731dddeaf8be742245803"
+  },
+  {
+    "name": "test_seismic.png",
+    "path_relative_to_root": "Src/Antialiasing (still in development)/renders_aa/test_seismic.png",
+    "size_in_bytes": 178334,
+    "sha256": "62282a16d7819df4c7d6fbcf45bde7be4906c487276668335e85df307f7d2bab"
+  },
+  {
+    "name": "test_seismic_aa_gaussian_2x2_1.0.png",
+    "path_relative_to_root": "Src/Antialiasing (still in development)/renders_aa/test_seismic_aa_gaussian_2x2_1.0.png",
+    "size_in_bytes": 71090,
+    "sha256": "62584228d5985e09b1758cbaefe3a8a8ef1043c2f272c3dc1ec2506dc357be9f"
+  },
+  {
+    "name": "graphic_1.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/graphic_1.png",
+    "size_in_bytes": 411677,
+    "sha256": "1c94cbfadc0d8c3643be17ea3e1aebe9fcf02b240de04edfae9af2e6d67b35d4"
+  },
+  {
+    "name": "graphic_2.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/graphic_2.png",
+    "size_in_bytes": 7262001,
+    "sha256": "c9d49dd2afa433eb1452e9a23dd1e83395df1d0269d39a5371a315d1c98605d5"
+  },
+  {
+    "name": "graphic_3.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/graphic_3.png",
+    "size_in_bytes": 6221471,
+    "sha256": "4276b07755478c5e7261aab482308a4749b5d75345af85961546e1dd48350689"
+  },
+  {
+    "name": "graphic_4.gif",
+    "path_relative_to_root": "Src/Article/article_dependencies/graphic_4.gif",
+    "size_in_bytes": 39829202,
+    "sha256": "9fa7178c87d889229748e1d981abc615f5a9bdc00957b382fd3ca885e664b171"
+  },
+  {
+    "name": "graphic_5.gif",
+    "path_relative_to_root": "Src/Article/article_dependencies/graphic_5.gif",
+    "size_in_bytes": 1653771,
+    "sha256": "90e8421f4cde1dd0fcf5c7914d669f8a2f8a763223b7df924734929bad2678dd"
+  },
+  {
+    "name": "1.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Honorable_mentions/1.png",
+    "size_in_bytes": 634382,
+    "sha256": "da8d5ff91eb42cecc28d49e8425427875e22a2e9046d870d81b3946c4b81167b"
+  },
+  {
+    "name": "2.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Honorable_mentions/2.png",
+    "size_in_bytes": 742059,
+    "sha256": "ce8d95d11a82518ab021f2e8b7fc10b7baa3d2f8a408cef6205d8aee195ddd4b"
+  },
+  {
+    "name": "3.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Honorable_mentions/3.png",
+    "size_in_bytes": 2394916,
+    "sha256": "1fb7649e88badb623d7267dd404e26c2bdf96de52ae469e421d0c348f8eb7867"
+  },
+  {
+    "name": "4.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Honorable_mentions/4.png",
+    "size_in_bytes": 4349864,
+    "sha256": "f2939d31e95fadba6536782fb77d07632def3b401b6d807dd54eac6294ca0860"
+  },
+  {
+    "name": "5.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Honorable_mentions/5.png",
+    "size_in_bytes": 604595,
+    "sha256": "3b38f008cfabb86574136f482dbb018997ad2426e7982ee4716bb5a2c37f8a63"
+  },
+  {
+    "name": "6.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Honorable_mentions/6.png",
+    "size_in_bytes": 17441771,
+    "sha256": "1fa3753aa5eda72e259f3af293e6aeef307223d7245fb237b0b49fdab5ddb4c3"
+  },
+  {
+    "name": "7.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Honorable_mentions/7.png",
+    "size_in_bytes": 21119138,
+    "sha256": "2cd7588f9b1966992cd350dd58284ff240b34bf3b158303b06794001828c975f"
+  },
+  {
+    "name": "8.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Honorable_mentions/8.png",
+    "size_in_bytes": 39379216,
+    "sha256": "764a7d3f58987f95a7f8a12574c1f9bbcce7a0bd58d0bd04292a7cd73e1dfbf0"
+  },
+  {
+    "name": "9.gif",
+    "path_relative_to_root": "Src/Article/article_dependencies/Honorable_mentions/9.gif",
+    "size_in_bytes": 317818386,
+    "sha256": "e18cf194c03dc30b78220a66fdbd03340e0272c4a381caad7b1c6d0e290aa363"
+  },
+  {
+    "name": "render_1.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Implementation_chapter/render_1.png",
+    "size_in_bytes": 1652605,
+    "sha256": "b14a8a6b72904bc761d413e0ea753286e3dfa9943fb973068f748249a7c3326a"
+  },
+  {
+    "name": "render_10.gif",
+    "path_relative_to_root": "Src/Article/article_dependencies/Implementation_chapter/render_10.gif",
+    "size_in_bytes": 127375775,
+    "sha256": "d8bf047f8a78173f325eb0c9464a91fc61598312ef6620abeea1d46cb2bcba0a"
+  },
+  {
+    "name": "render_2.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Implementation_chapter/render_2.png",
+    "size_in_bytes": 3558334,
+    "sha256": "9e85a08a6fbe31074531db4688c2488a86bbe445c5fe965a705df96ba9627e3a"
+  },
+  {
+    "name": "render_3.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Implementation_chapter/render_3.png",
+    "size_in_bytes": 2796908,
+    "sha256": "338ef5ff2b8391e813575298004c47c8bd866fac94dfea9659711451476c4757"
+  },
+  {
+    "name": "render_4.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Implementation_chapter/render_4.png",
+    "size_in_bytes": 2677117,
+    "sha256": "b603c5f7792cf3811fe478f78be3151298a100e3620191dcdb748916badaedee"
+  },
+  {
+    "name": "render_5.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Implementation_chapter/render_5.png",
+    "size_in_bytes": 6264908,
+    "sha256": "55722f99f4dfcf2c5c2349ea22e25fc40201b83391cc79eb327de4fd9a0cc0e8"
+  },
+  {
+    "name": "render_6.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Implementation_chapter/render_6.png",
+    "size_in_bytes": 171727,
+    "sha256": "b1e37e65fc2449f77773b108023faca5adc6a38712812de9fefa65065a56f577"
+  },
+  {
+    "name": "render_7.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Implementation_chapter/render_7.png",
+    "size_in_bytes": 56459,
+    "sha256": "c86b16719599a00d3f7b5880c057c0a9651d3c3510574d9da1284587e5ca45b9"
+  },
+  {
+    "name": "render_8.gif",
+    "path_relative_to_root": "Src/Article/article_dependencies/Implementation_chapter/render_8.gif",
+    "size_in_bytes": 16298837,
+    "sha256": "421b453ab380d54d05abcc7378e49a7ed5107a6d9e5127f657841c039924445d"
+  },
+  {
+    "name": "render_9.gif",
+    "path_relative_to_root": "Src/Article/article_dependencies/Implementation_chapter/render_9.gif",
+    "size_in_bytes": 87399374,
+    "sha256": "2f5529e6d1d2664087e37d75b9e03de915a84ca3a4a9786b805f44af62c5ea0d"
+  },
+  {
+    "name": "Picture_for_5_3.png",
+    "path_relative_to_root": "Src/Article/article_dependencies/Picture_for_5_3.png",
+    "size_in_bytes": 412910,
+    "sha256": "d044e1bd7961a5276031046b3fe559fe9eadaaf25f7674c2c394f94c5450d506"
+  },
+  {
+    "name": "Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.pdf",
+    "path_relative_to_root": "Src/Article/Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.pdf",
+    "size_in_bytes": 81682594,
+    "sha256": "e4591e4bbcdb48609edd430f056ae8cf453488fc474dc44ff6c669afb196171e"
+  },
+  {
+    "name": "julia_set_(0.34-0.05j)_res_1000x1000_ran_-2_2_-2_2.dat",
+    "path_relative_to_root": "Src/Renderers/renders_dat/julia_set_(0.34-0.05j)_res_1000x1000_ran_-2_2_-2_2.dat",
+    "size_in_bytes": 2570380,
+    "sha256": "e019008468c2468f3a775c7211461c4fc9c56229db2a336d051a5bafdafeed58"
+  },
+  {
+    "name": "julia_const _sin(z)_c=(1+0.010000000000000009j)_res_1500x750_map_root_root_root_root_plt viridis_r.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/julia_const _sin(z)_c=(1+0.010000000000000009j)_res_1500x750_map_root_root_root_root_plt viridis_r.gif",
+    "size_in_bytes": 9970355,
+    "sha256": "c2d19deb30677367d4e65f2db4187f3e67ed4bfeb0e00f3784e1b97dffe08992"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_1500x1500_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/julia_set_z^2 + c_res_1500x1500_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2.gif",
+    "size_in_bytes": 317818386,
+    "sha256": "e18cf194c03dc30b78220a66fdbd03340e0272c4a381caad7b1c6d0e290aa363"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_1500x1500_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_compresed.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/julia_set_z^2 + c_res_1500x1500_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_compresed.gif",
+    "size_in_bytes": 24087353,
+    "sha256": "fd8f1d10099ea6c243ef84a3995aba7a23c1391b1f737244c8ddf6428d66352a"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_800x800_ran_-2_2_-2_2_iter_256_mag_2.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/julia_set_z^2 + c_res_800x800_ran_-2_2_-2_2_iter_256_mag_2.gif",
+    "size_in_bytes": 1653771,
+    "sha256": "90e8421f4cde1dd0fcf5c7914d669f8a2f8a763223b7df924734929bad2678dd"
+  },
+  {
+    "name": "julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_2000x2000_map_cut 2_plt seismic.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_2000x2000_map_cut 2_plt seismic.gif",
+    "size_in_bytes": 946353818,
+    "sha256": "bb0db9c9576d215f0327cdef6388995e73a355e80ec8f83304f79fc32f25adc0"
+  },
+  {
+    "name": "julia_z^2 + const_c=(0.285+0.01j)_res_1000x1000_map_plt gist_stern.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/julia_z^2 + const_c=(0.285+0.01j)_res_1000x1000_map_plt gist_stern.gif",
+    "size_in_bytes": 36871252,
+    "sha256": "2fdfadb9e091352de86d732db279ef25366eb7edce0dc41a7a16050f1b16085d"
+  },
+  {
+    "name": "julia_z^2 + const_c=08_eialpha_res_1000x1000_map_plt twilight_shifted_fast.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/julia_z^2 + const_c=08_eialpha_res_1000x1000_map_plt twilight_shifted_fast.gif",
+    "size_in_bytes": 16298837,
+    "sha256": "421b453ab380d54d05abcc7378e49a7ed5107a6d9e5127f657841c039924445d"
+  },
+  {
+    "name": "julia_z^2 + const_c=08_eialpha_res_1000x1000_map_plt twilight_shifted_slow.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/julia_z^2 + const_c=08_eialpha_res_1000x1000_map_plt twilight_shifted_slow.gif",
+    "size_in_bytes": 32776378,
+    "sha256": "72557fde9e58e226422e66be59d824a37345ba92afae5f0cc82c272f1d4de2fa"
+  },
+  {
+    "name": "lin_Julia_set_iter_z^2 + const_res_800x800.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/lin_Julia_set_iter_z^2 + const_res_800x800.gif",
+    "size_in_bytes": 127375775,
+    "sha256": "d8bf047f8a78173f325eb0c9464a91fc61598312ef6620abeea1d46cb2bcba0a"
+  },
+  {
+    "name": "log_Julia_set_iter_z^2 + const_res_500x500.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/log_Julia_set_iter_z^2 + const_res_500x500.gif",
+    "size_in_bytes": 27054970,
+    "sha256": "c4a1ba2ca4f6f74b43e7e054a5c91e6a51d29ad79cf0e9545b60428282e912f8"
+  },
+  {
+    "name": "Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt nipy_spectral.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt nipy_spectral.gif",
+    "size_in_bytes": 39829202,
+    "sha256": "9fa7178c87d889229748e1d981abc615f5a9bdc00957b382fd3ca885e664b171"
+  },
+  {
+    "name": "Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt nipy_spectral_compressed.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt nipy_spectral_compressed.gif",
+    "size_in_bytes": 11807069,
+    "sha256": "bd76df05a53a9f0aeeb7654a96e48b520ce126543a069bef08184d751ac33e7b"
+  },
+  {
+    "name": "Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt ocean_r.gif",
+    "path_relative_to_root": "Src/Renderers/renders_gif/Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt ocean_r.gif",
+    "size_in_bytes": 87399374,
+    "sha256": "2f5529e6d1d2664087e37d75b9e03de915a84ca3a4a9786b805f44af62c5ea0d"
+  },
+  {
+    "name": "_res_10000x2000_ran_-2_2_-10_10_iter_256_mag_500_map_root_pltd RdPu.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_10000x2000_ran_-2_2_-10_10_iter_256_mag_500_map_root_pltd RdPu.png",
+    "size_in_bytes": 4349864,
+    "sha256": "f2939d31e95fadba6536782fb77d07632def3b401b6d807dd54eac6294ca0860"
+  },
+  {
+    "name": "_res_16000x9000_ran_-6_6_-6_6_iter_256_mag_50_map_plt cubehelix.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_16000x9000_ran_-6_6_-6_6_iter_256_mag_50_map_plt cubehelix.png",
+    "size_in_bytes": 39387119,
+    "sha256": "379e6da54300e47d38948f760164d29ce3856cd50753e10f802cd32ab90f4c2c"
+  },
+  {
+    "name": "_res_2000x200_ran_-0.2_0.2_-2_2_iter_50_mag_50_map_cut 10_root_plt gist_ncar.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_2000x200_ran_-0.2_0.2_-2_2_iter_50_mag_50_map_cut 10_root_plt gist_ncar.png",
+    "size_in_bytes": 66854,
+    "sha256": "5bded857e2e8c2d66c623e96ade997ca1a1483be7ffbe2a3edc28abdc2c79382"
+  },
+  {
+    "name": "_res_2000x200_ran_-2_2_-20_20_iter_256_mag_500_map_root_plt RdPu.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_2000x200_ran_-2_2_-20_20_iter_256_mag_500_map_root_plt RdPu.png",
+    "size_in_bytes": 164617,
+    "sha256": "01a85b83cbf5d301f9f110d374a5607a2ad4382a3d99cacf73d5f17c81f249d5"
+  },
+  {
+    "name": "_res_2000x200_ran_-2_2_-20_20_iter_256_mag_500_map_root_root_pltd RdPu.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_2000x200_ran_-2_2_-20_20_iter_256_mag_500_map_root_root_pltd RdPu.png",
+    "size_in_bytes": 182592,
+    "sha256": "48fd4d4122b867a83b2e10ad3e7d7cd222ee5d518c80d5cc87adc51e9bc69cf6"
+  },
+  {
+    "name": "_res_3200x1800_ran_-6_6_-6_6_iter_256_mag_50_map_root_rev_plt cubehelix.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_3200x1800_ran_-6_6_-6_6_iter_256_mag_50_map_root_rev_plt cubehelix.png",
+    "size_in_bytes": 1300628,
+    "sha256": "34a10ed88d63b4cbfdf29ca95036a1312721261b5687a25c83822d0a6714c5a8"
+  },
+  {
+    "name": "_res_3200x1800_ran_-9_9_-16_16_iter_256_mag_500_map_plt nipy_spectral.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_3200x1800_ran_-9_9_-16_16_iter_256_mag_500_map_plt nipy_spectral.png",
+    "size_in_bytes": 634382,
+    "sha256": "da8d5ff91eb42cecc28d49e8425427875e22a2e9046d870d81b3946c4b81167b"
+  },
+  {
+    "name": "_res_500x500_ran_-2_2_-2_2_iter_1025_mag_2_map_cut 10_root_plt gist_ncar.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_500x500_ran_-2_2_-2_2_iter_1025_mag_2_map_cut 10_root_plt gist_ncar.png",
+    "size_in_bytes": 28086,
+    "sha256": "578dfcb929c38a03c7ec18c667800bd1b2d0a53488820c9dfcb49aee71d8c1f7"
+  },
+  {
+    "name": "_res_500x500_ran_-2_2_-2_2_iter_1025_mag_2_map_cut 10_root_pltd flag.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_500x500_ran_-2_2_-2_2_iter_1025_mag_2_map_cut 10_root_pltd flag.png",
+    "size_in_bytes": 34003,
+    "sha256": "714f7bf02e381394871683511d37abbde4cc626feb92ae6655f9ab93ecc98d69"
+  },
+  {
+    "name": "_res_500x500_ran_-2_2_-2_2_iter_256_mag_2_map_cut 10_root_pltd flag.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_500x500_ran_-2_2_-2_2_iter_256_mag_2_map_cut 10_root_pltd flag.png",
+    "size_in_bytes": 23497,
+    "sha256": "bbfaa3b0def1836edae6792539f015576a8aacbeb985865283fe30d7d4543ccf"
+  },
+  {
+    "name": "_res_500x500_ran_-2_2_-2_2_iter_256_mag_2_map_cut 20_root_pltd twilight_shifted.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/_res_500x500_ran_-2_2_-2_2_iter_256_mag_2_map_cut 20_root_pltd twilight_shifted.png",
+    "size_in_bytes": 28674,
+    "sha256": "d04eec2af7dbd2a23694e05a721a9a58c38014eb487242da7379d9730df65110"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_1600x900_ran_-0.9_0.9_-1.6_1.6.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_1600x900_ran_-0.9_0.9_-1.6_1.6.png",
+    "size_in_bytes": 522499,
+    "sha256": "8caf8b7dd084a0590171c82e99dcb8f9b0380dd5ed46c9a1bcada3d0d92c0f2b"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_4000x2000_ran_-0.5_0.5_-1_1.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_4000x2000_ran_-0.5_0.5_-1_1.png",
+    "size_in_bytes": 742059,
+    "sha256": "ce8d95d11a82518ab021f2e8b7fc10b7baa3d2f8a408cef6205d8aee195ddd4b"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_4000x4000_ran_-1.5_1.5_-1.5_1.5.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_4000x4000_ran_-1.5_1.5_-1.5_1.5.png",
+    "size_in_bytes": 5954934,
+    "sha256": "a92b2109abae47f22df0dbc0c77abe875e633f152454eddcf940b82076eae047"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_4000x4000_ran_-2_2_-2_2.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_4000x4000_ran_-2_2_-2_2.png",
+    "size_in_bytes": 173778,
+    "sha256": "98e8e7fb3d615c47f8d66c46285e76a26dc0372e7fbf3e597e79fcae384af321"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_4400x2200_ran_-0.5_0.5_-1_1.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_4400x2200_ran_-0.5_0.5_-1_1.png",
+    "size_in_bytes": 945073,
+    "sha256": "667bfc938024b292be485f39c1c4b1cb9a260725f102f246f7bdc367123ffe52"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_5000x5000_ran_-0.3_0.3_-0.3_0.3.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_5000x5000_ran_-0.3_0.3_-0.3_0.3.png",
+    "size_in_bytes": 21119138,
+    "sha256": "2cd7588f9b1966992cd350dd58284ff240b34bf3b158303b06794001828c975f"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_550x350_ran_-1.2_1.2_-2.2_2.2.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_550x350_ran_-1.2_1.2_-2.2_2.2.png",
+    "size_in_bytes": 65604,
+    "sha256": "7d4ba0b7408ed50c6ca7323f77efd16f831c96e4c84cdcce34d6a5a2030989ec"
+  },
+  {
+    "name": "julia_set_z^2 + c_res_6000x3000_ran_-0.5_0.5_-1_1.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_6000x3000_ran_-0.5_0.5_-1_1.png",
+    "size_in_bytes": 3007925,
+    "sha256": "6b7aeae8b5aa1f0a0a0446c9d252315ba3828aa96a02298e2aca5f0bdf1d2728"
+  },
+  {
+    "name": "julia_sin(z) _const_c=(1+1j)_res_10000x10000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_plt flag.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_sin(z) _const_c=(1+1j)_res_10000x10000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_plt flag.png",
+    "size_in_bytes": 12179502,
+    "sha256": "f65910fd89d8874e879ddd86bae3c1c0f25ff1ed485a7d99c5fb5bb2e4f195c9"
+  },
+  {
+    "name": "julia_sin(z) _const_c=(1+1j)_res_10000x10000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_plt flag_bright.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_sin(z) _const_c=(1+1j)_res_10000x10000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_plt flag_bright.png",
+    "size_in_bytes": 17441771,
+    "sha256": "1fa3753aa5eda72e259f3af293e6aeef307223d7245fb237b0b49fdab5ddb4c3"
+  },
+  {
+    "name": "julia_sin(z) _const_c=(1+1j)_res_1000x1000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_mod 3_add 5_plt flag.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_sin(z) _const_c=(1+1j)_res_1000x1000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_mod 3_add 5_plt flag.png",
+    "size_in_bytes": 282419,
+    "sha256": "16ffdbffdbd3132b6a3431aeed63e9b7f4ed972ca8beacb7bf29b91fdf4f1bc6"
+  },
+  {
+    "name": "julia_sin(z) _const_c=(1+1j)_res_400x400_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_mod 3_plt flag.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_sin(z) _const_c=(1+1j)_res_400x400_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_mod 3_plt flag.png",
+    "size_in_bytes": 62014,
+    "sha256": "3ff6024bb49f8dabec82d0152ee191b273d2c8130167ffc9fd0f1778eb2351e3"
+  },
+  {
+    "name": "julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.45_0.55_-0.45_-0.55_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.45_0.55_-0.45_-0.55_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "size_in_bytes": 141089,
+    "sha256": "15e12da00398a1ce3d7360e71b3e7f97dea525f361b6638fd7a3a0587bdcc860"
+  },
+  {
+    "name": "julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.485_0.495_-0.505_-0.515_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.485_0.495_-0.505_-0.515_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "size_in_bytes": 178334,
+    "sha256": "62282a16d7819df4c7d6fbcf45bde7be4906c487276668335e85df307f7d2bab"
+  },
+  {
+    "name": "julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.4899_0.4901_-0.5099_-0.5101_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.4899_0.4901_-0.5099_-0.5101_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "size_in_bytes": 143963,
+    "sha256": "763a5914802aeca1b44403afef58fd838f8acbd3e4dae21ae6505b9be14b9d40"
+  },
+  {
+    "name": "julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.48_0.49_-0.51_-0.51_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.48_0.49_-0.51_-0.51_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "size_in_bytes": 101566,
+    "sha256": "a806894d7cab76660ef8e3f2f31696924cdb30e012613dd779028ee362505680"
+  },
+  {
+    "name": "julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.49_0.49_-0.51_-0.51_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.49_0.49_-0.51_-0.51_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "size_in_bytes": 106164,
+    "sha256": "02d57339e9a8c57d770bb76da2f1db851f65ef76ffd60c23c3b3b82a1ee64653"
+  },
+  {
+    "name": "julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.5_1.5_-1_0_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.5_1.5_-1_0_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "size_in_bytes": 103654,
+    "sha256": "6f07022502e45a9b2cc04e7db2c29ab59df155afef2f893637d12cb720cffad2"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-0.4+0.6j)_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.4+0.6j)_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
+    "size_in_bytes": 6264908,
+    "sha256": "55722f99f4dfcf2c5c2349ea22e25fc40201b83391cc79eb327de4fd9a0cc0e8"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-0.8+0.156j)_res_1600x900_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_plt flag.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_1600x900_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_plt flag.png",
+    "size_in_bytes": 795169,
+    "sha256": "8edc742a8db284b6ec14efdec79ea99f081f72de997b40d8450d60e0fc8d2682"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag cut.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag cut.png",
+    "size_in_bytes": 473965,
+    "sha256": "8ec8a0a45acea4c660bbef32bd147ff516e00876be936661bab4d6a4c335ee1a"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag.png",
+    "size_in_bytes": 2394916,
+    "sha256": "1fb7649e88badb623d7267dd404e26c2bdf96de52ae469e421d0c348f8eb7867"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-1.6_1.6_-0.9_0.9_iter_256_mag_2_map_plt CMRmap.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-1.6_1.6_-0.9_0.9_iter_256_mag_2_map_plt CMRmap.png",
+    "size_in_bytes": 3207352,
+    "sha256": "9ba3307dcaaba3a79c1a859cb6b3e7b19a714b6ca9bec7e7f56efb28d7222573"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-0.8+0.156j)_res_400x400_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_map_pltd pink.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_400x400_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_map_pltd pink.png",
+    "size_in_bytes": 237668,
+    "sha256": "69cadd633fc35c78b08e75308a871deef2c1b18952de9fb0939af208092fef35"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-0.8+0.156j)_res_400x400_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_map_root_pltd spring.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_400x400_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_map_root_pltd spring.png",
+    "size_in_bytes": 172032,
+    "sha256": "ba118b32a7f78ee37d5b851f6f9306520eabc8ce9fb8dd6e3ad57e8804e6576d"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-0.8+0.156j)_res_6400x3600_ran_-0.016_0.016_-0.009_0.009_iter_256_mag_2_map_plt CMRmap.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_6400x3600_ran_-0.016_0.016_-0.009_0.009_iter_256_mag_2_map_plt CMRmap.png",
+    "size_in_bytes": 7019224,
+    "sha256": "0d8ff35bd7c43bcc7042ac3146c8f5bac578a6645de2d44f3cf79d72ceffb76c"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-0.8+0.156j)_res_6400x3600_ran_-0.16_0.16_-0.09_0.09_iter_256_mag_2_map_plt CMRmap.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_6400x3600_ran_-0.16_0.16_-0.09_0.09_iter_256_mag_2_map_plt CMRmap.png",
+    "size_in_bytes": 16959256,
+    "sha256": "9764e3682c979da231bb08927a8635ec146a7867d9c304585e435eda0f5969c6"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-0.8+0.1j)_res_400x400_ran_-1.5_1.5_-1.5_1.5_iter_256_mag_2_map_pltd pink.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.1j)_res_400x400_ran_-1.5_1.5_-1.5_1.5_iter_256_mag_2_map_pltd pink.png",
+    "size_in_bytes": 22862,
+    "sha256": "df8da5a7b04e9e2c159f2e2f0f64f4b36ef7349d161b0136f67aa8b2a5adb09f"
+  },
+  {
+    "name": "julia_z^2 + const_c=(-1+0j)_res_5000x2500_ran_-2_2_-1_1_iter_256_mag_50_map_root_root_plt gist_heat.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-1+0j)_res_5000x2500_ran_-2_2_-1_1_iter_256_mag_50_map_root_root_plt gist_heat.png",
+    "size_in_bytes": 401653,
+    "sha256": "e9beaa201753c583bbb64962a6c23a48d70e9f5f2c57b83ca8f08c9ba65538b5"
+  },
+  {
+    "name": "julia_z^2 + const_c=(0.35+0.35j)_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(0.35+0.35j)_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
+    "size_in_bytes": 2677117,
+    "sha256": "b603c5f7792cf3811fe478f78be3151298a100e3620191dcdb748916badaedee"
+  },
+  {
+    "name": "julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt bone.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt bone.png",
+    "size_in_bytes": 48824,
+    "sha256": "7d630da460b42d2d258aeff271d8ae097ab80a112add20722edac04321da6de4"
+  },
+  {
+    "name": "julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight.png",
+    "size_in_bytes": 49685,
+    "sha256": "8ecd7efc01c7c755a10c14b0247d92932e6f375067499c3e564cdff6a1812d65"
+  },
+  {
+    "name": "julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight_r.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight_r.png",
+    "size_in_bytes": 50243,
+    "sha256": "13b69333d0341de0a03ad0ff081103d2690b8114d4369ec3346d6bbf589f97de"
+  },
+  {
+    "name": "julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight_shifted.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight_shifted.png",
+    "size_in_bytes": 50414,
+    "sha256": "57e829d9b8dae6d28905d4d024ed21a4321cfce5b1fd8943aacff5f4436898de"
+  },
+  {
+    "name": "julia_z^2 + const_c=0j_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=0j_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
+    "size_in_bytes": 171727,
+    "sha256": "b1e37e65fc2449f77773b108023faca5adc6a38712812de9fefa65065a56f577"
+  },
+  {
+    "name": "julia_z^2+const_c=(0.285+0.01j)_res_10000x10000_ran_-1.5_1.5_-1.5_1.5_iter_256_mag_2_map_plt gist_stern.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2+const_c=(0.285+0.01j)_res_10000x10000_ran_-1.5_1.5_-1.5_1.5_iter_256_mag_2_map_plt gist_stern.png",
+    "size_in_bytes": 12954257,
+    "sha256": "3d23c8bc96e2b66548ccf4431629de06364708dc77f711abfe03af909776df96"
+  },
+  {
+    "name": "Mandelbrot_z^2 + const_c=0_res_10000x10000_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt bone.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/Mandelbrot_z^2 + const_c=0_res_10000x10000_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt bone.png",
+    "size_in_bytes": 6221471,
+    "sha256": "4276b07755478c5e7261aab482308a4749b5d75345af85961546e1dd48350689"
+  },
+  {
+    "name": "Mandelbrot_z^2 + const_c=0_res_1000x1000_ran_-0.744_-0.743_0.131_0.132_iter_256_mag_2_map_plt ocean_r.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/Mandelbrot_z^2 + const_c=0_res_1000x1000_ran_-0.744_-0.743_0.131_0.132_iter_256_mag_2_map_plt ocean_r.png",
+    "size_in_bytes": 604595,
+    "sha256": "3b38f008cfabb86574136f482dbb018997ad2426e7982ee4716bb5a2c37f8a63"
+  }
+]
