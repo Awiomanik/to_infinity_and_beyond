@@ -1,4 +1,3 @@
-
 # Ignore folders named TEST and their contents
 TEST/
 
@@ -31,15 +30,47 @@ share/python-wheels/
 MANIFEST
 
 # Ignore LaTeX compilation files
-Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.aux
-Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.bbl
-Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.bcf
-Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.blg
-Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.log
-Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.out
-Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.run.xml
-Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.synctex.gz
-Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.toc
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art.*
 
+# API Credentials
+**/credentials.json
+**/token.json
+Src/Cloud/creds/credentials.json
+Src/Cloud/creds/token.json
 
-
+# Files below will be ignored by git, but still included in the manifest (for cloud upload)
+# They must stay at the end of the .gitignore file!
+# CLOUD_ASSETS
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+*.bmp
+*.webp
+*.svg
+*.pdf 
+*.eps
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.zip
+*.tar
+*.gz
+*.7z 
+*.rar
+*.npy
+*.npz
+*.h5
+*.dat
