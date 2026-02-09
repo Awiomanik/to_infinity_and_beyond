@@ -4,7 +4,61 @@
   <br>
 </div>
 
-> **still in development**
+---
+This repository is currently under complete restructure. 
+README.md does not represent the current state.
+Information below is a note to devs for rebuilding the README.md in the future.
+
+## Cloud pipeline (Google Drive)
+
+This repository uses a **manual cloud synchronization pipeline** for large and generated files
+(renders, binaries, datasets) that are not stored directly in Git.
+
+Cloud-related code is located in:
+
+Src/Cloud
+
+### Usage
+
+Cloud synchronization must be triggered manually:
+
+```bash
+poetry run python -m Src.Cloud.run_sync_upload
+```
+This command:
+- compares local and remote cloud manifests
+- uploads new or changed files
+- archives removed files
+- updates manifests
+- appends an entry to Src/Cloud/manifests/cloud_sync.log
+
+Important rules
+- Git commit / push does NOT sync the cloud
+- Always run ```run_sync_upload``` after generating renders or large files
+- Never modify or delete cloud files outside this pipeline
+- Manifests and the sync log are the source of truth
+
+## Python environment (Poetry)
+This repository is managed using Poetry.
+
+Setup from repository root:
+```bash
+poetry install
+```
+All scripts should be run via Poetry, e.g.:
+```bash
+poetry run python -m Src.Cloud.run_sync
+```
+Direct execution using python script.py is discouraged.
+
+## Data safety
+This project prioritizes explicit, manual workflows to avoid data loss.
+If something is missing, the most likely cause is skipping cloud synchronization.
+
+---
+# Old README.md:
+
+
 
 This repository contains a collection of fractal algorithms and visualization tools aimed at exploring the fascinating world of fractals, developed as a learning endeavour to deepen our understanding of both programming and complex mathematical concepts.
 

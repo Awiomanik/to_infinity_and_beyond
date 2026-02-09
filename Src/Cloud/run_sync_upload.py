@@ -3,7 +3,7 @@
 Simple wrapper to run the cloud syncronization pipeline and print concise stats.
 
 Usage:
-  python Utils/Cloud/run_sync.py 
+  python Utils/Cloud/run_sync_upload.py 
 
 Behavior:
 - Runs generate_local_manifest.py and get_remote_manifest.py (prints outputs).
