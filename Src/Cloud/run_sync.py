@@ -95,7 +95,7 @@ def print_summary(s):
 # Main
 def main():
     # Generate local manifest
-    print(">>> Generating local manifest...")
+    print("\n>>> Generating local manifest...")
     rc = subprocess.run([PY, "-m", "Src.Cloud.scripts.generate_local_manifest"]).returncode
     if rc != 0:
         print(f"{RED_TXT}generate_local_manifest.py failed (return code={rc}). Aborting.{DEFAULT_TXT}")

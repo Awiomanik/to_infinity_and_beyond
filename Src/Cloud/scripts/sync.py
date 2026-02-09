@@ -5,6 +5,7 @@ import json
 from pathlib import Path, PurePosixPath
 from datetime import timezone, datetime
 from googleapiclient.http import MediaInMemoryUpload, MediaFileUpload
+from Src.Utils.utils import sha256_of_file
 
 # Paths
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -21,6 +22,30 @@ DRIVE_ARCHIVE_FOLDER_NAME = "archive"
 DRIVE_MANIFEST_FILENAME = "remote_manifest.json"
 
 # Utils
+def append_cloud_sync_log(
+    upload_count: int,
+    archive_count: int,
+    local_manifest: Path,
+    remote_manifest: Path,
+):
+    timestamp = datetime.now(timezone.utc).isoformat(timespec="seconds") + "Z"
+    local_hash = sha256_of_file(local_manifest)
+    remote_hash = sha256_of_file(remote_manifest)
+
+    line = (
+        f"{timestamp} | "
+        f"UPLOAD={upload_count} | "
+        f"ARCHIVE={archive_count} | "
+        f"LOCAL_HASH={local_hash} | "
+        f"REMOTE_HASH={remote_hash}\n"
+    )
+
+    log_path = CLOUD_DIR / "sync_log.txt"
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(line)
+        f.flush()
+
 def load_json_list(path: Path) -> list[dict]:
     if not path.exists():
         return []
@@ -419,6 +444,14 @@ def main() -> int:
 
     print("\nUpdating remote manifest...\n")
     update_remote_manifest()
+
+    append_cloud_sync_log(
+        upload_count=len(to_upload),
+        archive_count=len(to_archive),
+        local_manifest=Path("Src/Cloud/manifests/local_manifest.json"),
+        remote_manifest=Path("Src/Cloud/manifests/remote_manifest.json"),
+    )
+
     return 0
 
 # Entry point

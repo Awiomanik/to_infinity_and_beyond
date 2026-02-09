@@ -450,6 +450,12 @@
     "sha256": "8edc742a8db284b6ec14efdec79ea99f081f72de997b40d8450d60e0fc8d2682"
   },
   {
+    "name": "julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag cut.png",
+    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag cut.png",
+    "size_in_bytes": 473965,
+    "sha256": "8ec8a0a45acea4c660bbef32bd147ff516e00876be936661bab4d6a4c335ee1a"
+  },
+  {
     "name": "julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag.png",
     "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag.png",
     "size_in_bytes": 2394916,
