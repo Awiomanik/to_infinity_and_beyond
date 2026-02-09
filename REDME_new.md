@@ -52,49 +52,48 @@ If something is missing, the most likely cause is skipping cloud synchronization
 
 <div align="center">
 
-  <pre style="
+  <div style="
     margin-top: 1.5em;
     padding: 0.5em 3.2em;
     display: inline-block;
     text-align: center;
-
     background: radial-gradient(circle at center,
       rgba(0,255,180,0.12),
       rgba(0,140,255,0.10),
       rgba(0,0,0,0.0));
-
     border: 1px solid rgba(0,190,255,0.35);
     border-radius: 18px;
-
     box-shadow:
       0 0 18px rgba(0,255,200,0.35),
       0 0 42px rgba(0,120,255,0.25);
   ">
 
-<span style="
+<div style="
   display:block;
   font-size: 2.5em;
-  font-weight: 900;
-  letter-spacing: 0.05em;
-  line-height: 1.0;
-  margin-bottom: 0.01em;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  line-height: 1.5;
+  margin-bottom: 0.1em;
   color: #7dffdc;
 ">
 Holomorphic Dynamics
-</span>
+</div>
 
-<span style="
+<div style="
   display:block;
-  margin-top: 0.01em;
-  font-size: 1.6em;
-  letter-spacing: 0.05em;
-  line-height: 0.05;
+  margin-top: 0.1em;
+  font-size: 1.9em;
+  font-weight: 750;
+  letter-spacing: 0.01em;
+  line-height: 1.0;
   margin-top: 0.01;
+  margin-bottom: 0.5em;
   color: #7ddcff;
 ">
 an Odyssey from Chaos to Art
-</span>
+</div>
 
-  </pre>
+  </div>
 
 </div>
