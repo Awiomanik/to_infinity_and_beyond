@@ -1,3 +1,0 @@
-[submodule "⚠ DRIVE: run poetry run python -m Src.Cloud.run_sync"]
-	path = Src/Cloud/._drive_reminder_
-	url = https://.invalid/
