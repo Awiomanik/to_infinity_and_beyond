@@ -9,7 +9,8 @@ this file contains list of features, improvments and generally ideas of what can
 - [ ] Prepare implementation chapter for main document
 - [ ] configure README.md file
 - [ ] add Sierpiński and maybe other like perlin noise
- 
+- [ ] add readme.md to google drive
+  
 
 ### Julia_set_renderers:
 - [ ] Adjust types in arrays (uint8, uint16,..) and calculations (npmath for better precision)

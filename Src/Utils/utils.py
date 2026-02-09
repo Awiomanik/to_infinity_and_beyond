@@ -8,6 +8,8 @@ from pathlib import Path
 # CONSTANTS
 RED_TXT: str = "\033[31m"
 DEFAULT_TXT: str = "\033[0m"
+GREEN_TXT: str = "\033[32m"
+
 BINARY_EXTS = {
     ".png", ".jpg", ".jpeg", ".gif", ".tiff", ".bmp", ".webp", ".svg",
     ".pdf", ".eps", ".mp4", ".mov", ".avi", ".mkv", ".webm",

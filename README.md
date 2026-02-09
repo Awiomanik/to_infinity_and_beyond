@@ -13,9 +13,9 @@ README.md does not represent the current state.
 
 
 
-This repository contains a collection of fractal algorithms and visualization tools aimed at exploring the fascinating world of fractals, developed as a learning endeavour to deepen our understanding of both programming and complex mathematical concepts.
+This repository contains a collection of algorithms and visualization tools aimed at exploring the fascinating world of fractals, developed as a learning endeavour to deepen our understanding of both programming and complex mathematical concepts.
 
-Explore various fractals with Python shell scripts Jupyter notebooks and LaTex documents. This project is aimed at learning coding and exploring math.
+Explore various fractals with Python shell scripts, Jupyter notebooks and LaTex documents. This project is aimed at learning coding and exploring math.
 
 ## Table of Contents
 - [Objectives](#objectives)

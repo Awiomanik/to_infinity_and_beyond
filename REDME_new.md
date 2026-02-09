@@ -9,6 +9,33 @@ Cloud-related code is located in:
 
 Src/Cloud
 
+## Cloud assets (after clone)
+
+This repository stores large binary files (renders, PDFs, datasets) in Google Drive.
+
+After cloning the repo, **binary assets are NOT present locally by default**.
+
+To restore all files from the cloud:
+
+```bash
+poetry install
+poetry run python -m Src.Cloud.scripts.public_pull
+```
+
+What this does:
+
+- reads Src/Cloud/manifests/public_index.json
+- downloads missing files from Google Drive (no credentials required)
+- skips files that already exist locally and match hashes
+- interactively asks what to do on conflicts or corrupted files
+
+Typical use cases:
+- fresh clone on a new machine
+- restoring files after accidental deletion
+- safely removing the repo locally and rebuilding it later
+
+If the script reports hash mismatches or permission errors, do not ignore them – they indicate an inconsistent local state or incorrect Drive sharing.
+
 ### Usage
 
 Cloud synchronization must be triggered manually:
@@ -49,7 +76,7 @@ If something is missing, the most likely cause is skipping cloud synchronization
 
 
 # New README.md:
-
+<!---
 <div align="center">
 
   <div style="
@@ -93,7 +120,14 @@ Holomorphic Dynamics
 ">
 an Odyssey from Chaos to Art
 </div>
+-->
 
-  </div>
-
+<div align="center">
+  <h1 style="margin: 0;">Holomorphic Dynamics:</h1>
+  <h2 style="margin: 0;">an Odyssey from Chaos to Art</h2>
+  <br>
 </div>
+
+This repository contains a collection of algorithms and visualization tools aimed at exploring the fascinating world of fractals, developed as a learning endeavour to deepen our understanding of both programming and complex mathematical concepts.
+
+Explore various fractals with Python shell scripts, Jupyter notebooks and LaTex documents. This project is aimed at learning coding and exploring math.

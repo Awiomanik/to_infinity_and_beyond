@@ -80,6 +80,45 @@ def plan(local: list[dict], remote: list[dict]) -> tuple[list[str], list[str]]:
     return [l_item for l_item in remote if canon(l_item) not in local_set], \
            [r_item for r_item in local if canon(r_item) not in remote_set]
 
+def write_public_index(remote_id: dict[str, str], local_manifest: list[dict]) -> None:
+    """
+    Create manifests/public_index.json that allows public (no-credentials) download after clone.
+
+    Format (list):
+      {
+        "path_relative_to_root": "...",
+        "sha256": "...",
+        "size_in_bytes": 123,
+        "drive_file_id": "...."
+      }
+    """
+    out = []
+    missing = []
+
+    for it in local_manifest:
+        p = it.get("path_relative_to_root")
+        if not p:
+            continue
+        fid = remote_id.get(p)
+        if not fid:
+            missing.append(p)
+            continue
+        out.append({
+            "path_relative_to_root": p,
+            "sha256": it.get("sha256", ""),
+            "size_in_bytes": int(it.get("size_in_bytes", 0) or 0),
+            "drive_file_id": fid,
+        })
+
+    out_path = MANIFESTS_DIR / "public_index.json"
+    out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf8")
+
+    if missing:
+        print(f"WARNING: public_index missing {len(missing)} paths (no drive_file_id). Files missing:")
+        for p in missing:
+            print(f"  - {p}")
+    print(f"Wrote public index -> {out_path}")
+
 # Drive utils
 _DRIVE_SERVICE = None
 _FOLDER_IDS = None
@@ -340,7 +379,8 @@ def upload_local(repo_path: str) -> None:
         "name": local_path.name,
         "parents": [parent_id],
     }
-    service.files().create(body=body, media_body=media, fields="id").execute()
+    
+    return service.files().create(body=body, media_body=media, fields="id").execute()["id"]
 
 def replace_remote_with_local(repo_path: str) -> None:
     """Upload local file as replacement (after remote archived)."""
@@ -409,6 +449,8 @@ def update_remote_manifest() -> None:
 
 # Main
 def main() -> int:
+
+    print("\nPreparing sync...")
     # Load manifests
     local = load_json_list(LOCAL_MANIFEST_PATH)
     remote = load_json_list(REMOTE_INDEX_PATH)
@@ -418,7 +460,6 @@ def main() -> int:
     to_archive, to_upload = plan(local, remote)
     if not (to_archive or to_upload):
         print("Already in sync.")
-        return 0
     
     else:
         # Upload the plan
@@ -433,6 +474,7 @@ def main() -> int:
                 tmp_path = p.get("path_relative_to_root", "<missing_path>")
                 print(f"  {i}/{arch_len} - {('...' if len(tmp_path) > 60 else '')}{tmp_path[len(tmp_path)-60:] if len(tmp_path) > 60 else tmp_path}")
                 move_remote_to_archive(remote_id[tmp_path])
+                remote_id.pop(tmp_path, None)  # Remove archived from remote_id map, so they won't be included in public index
 
         if to_upload:
             upl_len = len(to_upload)
@@ -440,11 +482,16 @@ def main() -> int:
             for i, p in enumerate(to_upload, start=1):
                 tmp_path = p.get("path_relative_to_root", "<missing_path>")
                 print(f"  {i}/{upl_len} - {('...' if len(tmp_path) > 60 else '')}{tmp_path[len(tmp_path)-60:] if len(tmp_path) > 60 else tmp_path}")
-                upload_local(tmp_path)
+                fid = upload_local(tmp_path)
+                remote_id[tmp_path] = fid  # Update the remote_id map for new uploads, so public index can be generated correctly
 
-    print("\nUpdating remote manifest...\n")
+    print("\nUpdating remote manifest...")
     update_remote_manifest()
 
+    print("Writing public index...")
+    write_public_index(remote_id, local)
+
+    print("Appending to log...")
     append_cloud_sync_log(
         upload_count=len(to_upload),
         archive_count=len(to_archive),
