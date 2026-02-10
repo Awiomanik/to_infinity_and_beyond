@@ -11,6 +11,9 @@ Src/Cloud
 
 ## Cloud assets (after clone)
 
+This repository is **not a Python package**.
+Poetry is used only for **dependency management and virtual environment setup**.
+
 This repository stores large binary files (renders, PDFs, datasets) in Google Drive.
 
 After cloning the repo, **binary assets are NOT present locally by default**.
@@ -18,7 +21,7 @@ After cloning the repo, **binary assets are NOT present locally by default**.
 To restore all files from the cloud:
 
 ```bash
-poetry install
+poetry install --no-root
 poetry run python -m Src.Cloud.scripts.public_pull
 ```
 

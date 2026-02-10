@@ -379,8 +379,27 @@ def upload_local(repo_path: str) -> None:
         "name": local_path.name,
         "parents": [parent_id],
     }
-    
-    return service.files().create(body=body, media_body=media, fields="id").execute()["id"]
+
+    # Create file
+    created = service.files().create(
+        body=body,
+        media_body=media,
+        fields="id",
+    ).execute()
+
+    file_id = created["id"]
+
+    # Make file publicly readable
+    service.permissions().create(
+        fileId=file_id,
+        body={
+            "type": "anyone",
+            "role": "reader",
+        },
+    ).execute()
+
+    # Return file id
+    return file_id
 
 def replace_remote_with_local(repo_path: str) -> None:
     """Upload local file as replacement (after remote archived)."""

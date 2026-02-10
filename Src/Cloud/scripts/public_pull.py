@@ -31,6 +31,7 @@ REPO_ROOT = CLOUD_DIR.parent.parent
 DRIVE_UC = "https://drive.google.com/uc?export=download&id={file_id}"
 
 CONFIRM_RE = re.compile(r"confirm=([0-9A-Za-z_]+)")
+WARNING_COOKIE_RE = re.compile(r"download_warning[^=]*=([0-9A-Za-z_-]+)")
 
 def _open_url(url: str, cj: CookieJar) -> urllib.response.addinfourl:
     opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
@@ -49,15 +50,31 @@ def download_drive_file(file_id: str, out_path: Path) -> None:
     resp = _open_url(url, cj)
     ct = (resp.headers.get("Content-Type") or "").lower()
 
-    # If HTML, likely needs confirm token
     if "text/html" in ct:
         html = resp.read().decode("utf-8", errors="ignore")
+
+        # Case A: classic confirm= token present in HTML
         m = CONFIRM_RE.search(html)
-        if not m:
-            raise RuntimeError(f"Drive download blocked or not public (no confirm token). file_id={file_id}")
-        token = m.group(1)
-        url2 = url + "&confirm=" + urllib.parse.quote(token)
-        resp = _open_url(url2, cj)
+        if m:
+            token = m.group(1)
+            url2 = url + "&confirm=" + urllib.parse.quote(token)
+            resp = _open_url(url2, cj)
+        else:
+            # Case B: large-file warning uses cookie-based token (download_warning)
+            cookie_str = "; ".join([f"{c.name}={c.value}" for c in cj])
+            m2 = WARNING_COOKIE_RE.search(cookie_str)
+            if m2:
+                token = m2.group(1)
+                url2 = url + "&confirm=" + urllib.parse.quote(token)
+                resp = _open_url(url2, cj)
+            else:
+                # Not a downloadable interstitial (permission/quota/sign-in page)
+                raise RuntimeError(
+                    "Drive returned an HTML interstitial that this script can't bypass "
+                    "(permission/quota/sign-in/abuse or changed layout).\n"
+                    f"file_id={file_id}\n"
+                    f"Open in browser: https://drive.google.com/file/d/{file_id}/view"
+                )
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -93,6 +110,7 @@ def main() -> int:
     to_download = []
     to_skip = []
     total_size = 0
+    total_number = len(items)
     for it in items:
         repo_rel = it.get("path_relative_to_root")
         fid = it.get("drive_file_id")
@@ -116,7 +134,7 @@ def main() -> int:
         total_size += size
 
     print("============= Public pull plan =============")
-    print(f"Files in index:      {len(items)}")
+    print(f"Files in index:      {total_number}")
     print(f"Files to download:   {len(to_download)}")
     print(f"Files to skip:       {len(to_skip)}")
     print(f"Total download size: {human_size(total_size)}")
@@ -124,8 +142,9 @@ def main() -> int:
 
     # Iterate items and pull as needed
     total = 0
-    done = 0
+    downloaded = 0
     skipped = 0
+    failed = 0
     for idx, it in enumerate(items, start=1):
 
         repo_rel = it.get("path_relative_to_root")
@@ -153,7 +172,7 @@ def main() -> int:
                 ans = input("Skip this item? (y/n) ").strip().lower()
                 if ans == "y":
                     skipped += 1
-                    print(f"[{idx}]\t{RED_TXT}skip{DEFAULT_TXT}\t{repo_rel_str} (destination exists but is not a file)")
+                    print(f"[{idx}/{total_number}]\t{RED_TXT}skip{DEFAULT_TXT}\t{repo_rel_str} (destination exists but is not a file)")
                     continue
                 raise RuntimeError(f"Destination exists but is not a file: {dst}")
 
@@ -174,7 +193,7 @@ def main() -> int:
             else:
                 if got == expected:
                     skipped += 1
-                    print(f"[{idx}]\t{RED_TXT}skip{DEFAULT_TXT}\t{repo_rel_str} (file exists and sha256 matches)")
+                    print(f"[{idx}/{total_number}]\t{RED_TXT}skip{DEFAULT_TXT}\t{repo_rel_str} (file exists and sha256 matches)")
                     continue
                 else:
                     print(f"WARNING: file exists but sha256 does NOT match: {dst}")
@@ -187,10 +206,19 @@ def main() -> int:
                         pass
                     else:
                         raise RuntimeError(f"Hash mismatch for {repo_rel_str}, and user chose not to re-download.")
-
-        print(f"[{idx}]\t{GREEN_TXT}pull{DEFAULT_TXT}\t{repo_rel_str} ({human_size(size) if size else '??'})")
-        download_drive_file(fid, dst)
-        done += 1
+        print(f"[{idx}/{total_number}]\t{GREEN_TXT}pull{DEFAULT_TXT}\t{repo_rel_str} ({human_size(size) if size else '??'})")
+        try:
+            download_drive_file(fid, dst)
+            downloaded += 1
+        except RuntimeError as e:
+            print(f"ERROR: failed to download {repo_rel}")
+            print(f"Reason: {e}")
+            print(f"Open in browser: https://drive.google.com/file/d/{fid}/view")
+            ans = input("Skip this file and continue? (y/n) ").strip().lower()
+            if ans == "y":
+                failed += 1
+                continue
+            raise
 
         if expected:
             got = sha256_of_file(dst).lower()
@@ -211,7 +239,7 @@ def main() -> int:
                 else:
                     raise RuntimeError(f"Hash mismatch for {repo_rel_str}, and user chose not to re-download.")
 
-    print(f"\nPublic pull complete. total={total}, downloaded={done}, skipped={skipped}")
+    print(f"\nPublic pull complete. total={total}, downloaded={downloaded}, skipped={skipped}, failed={failed}")
     return 0
 
 if __name__ == "__main__":

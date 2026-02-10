@@ -5,18 +5,20 @@ description = "This repository contains a collection of fractal algorithms and v
 authors = [
     {name = "Wojciech Kośnik-Kowalczuk, Olaf Masłowski, Jakub Blukacz"}
 ]
-license = {text = "Apache License v2.0"}
+license = {text = "Apache-2.0"}
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "google-api-python-client (>=2.189.0,<3.0.0)",
-    "google-auth-httplib2 (>=0.3.0,<0.4.0)",
-    "google-auth-oauthlib (>=1.2.4,<2.0.0)"
+    "google-api-python-client>=2.189.0,<3.0.0",
+    "google-auth-httplib2>=0.3.0,<0.4.0",
+    "google-auth-oauthlib>=1.2.4,<2.0.0"
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
 
 
