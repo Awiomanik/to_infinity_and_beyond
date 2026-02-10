@@ -39,17 +39,17 @@ index = [0]  # Current index of selected option ([] for closere)
 # Define actions for key bindings
 @kb.add('up')
 def _(event):
-    index[0] = (index[0] - 1) % len(options_keys)
+    index[0] = (index[0] - 1) % len(OPTION_KEYS)
     event.app.exit()
 
 @kb.add('down')
 def _(event):
-    index[0] = (index[0] + 1) % len(options_keys)
+    index[0] = (index[0] + 1) % len(OPTION_KEYS)
     event.app.exit()
 
 @kb.add('enter')
 def _(event):
-    event.app.exit(options_keys[index[0]])
+    event.app.exit(OPTION_KEYS  [index[0]])
 
 # Function to handle the selected option and perform corresponding actions
 def handle_selection(selected: str, values: dict) -> bool:
@@ -142,7 +142,6 @@ f'Enter new value for {selected} (or type "cancel" to discard)\n\
         print("initializing...\r", end='', flush=True)
         try:
             render(values)
-            print("\nPicture rendered, you can find it in current catalog")
         except Exception as e:
             print(f"\nRender failed: {e}")
         input("PRESS ENTER TO CONTINUE")

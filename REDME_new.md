@@ -22,7 +22,7 @@ To restore all files from the cloud:
 
 ```bash
 poetry install
-poetry run python -m Src.Cloud.scripts.public_pull
+poetry run sync_clone
 ```
 
 What this does:
@@ -44,7 +44,7 @@ If the script reports hash mismatches or permission errors, do not ignore them â
 Cloud synchronization must be triggered manually:
 
 ```bash
-poetry run python -m Src.Cloud.run_sync_upload
+poetry run sync_upload
 ```
 This command:
 - compares local and remote cloud manifests
@@ -95,7 +95,11 @@ If something is missing, the most likely cause is skipping cloud synchronization
 Rendering tool uruchamiany jest przez entry point Poetry:
 `poetry run render`
 
-
+Running renderer tests examples:
+```bash
+poetry run python -m Src.Rendering_engine.manual_tests png_basic_twilight
+poetry run python -m Src.Rendering_engine.manual_tests gif_const_magnitude
+```
 
 
 

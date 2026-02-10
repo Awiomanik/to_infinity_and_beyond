@@ -13,6 +13,11 @@ dependencies = [
     "google-auth-httplib2>=0.3.0,<0.4.0",
     "google-auth-oauthlib>=1.2.4,<2.0.0",
     "prompt-toolkit>=3.0.0,<4.0.0",
+
+    "numpy>=1.26,<3.0",
+    "pillow>=10.0,<12.0",
+    "matplotlib>=3.8,<4.0",
+    "sympy>=1.12,<2.0",
 ]
 
 [build-system]
@@ -20,10 +25,16 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-package-mode = false
+package-mode = true
 
-[tool.poetry.scripts]
+packages = [
+    { include = "Src" }
+]
+
+[project.scripts]
 render = "Src.Rendering_tool.Rendering_tool:main"
+sync_upload = "Src.Cloud.run_sync_upload:main"
+sync_clone = "Src.Cloud.public_pull:main"
 
 
 

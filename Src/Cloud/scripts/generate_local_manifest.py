@@ -15,6 +15,20 @@ OUT_PATH = MANIFESTS_PATH / "local_manifest.json"
 ROOT_DIR = CLOUD_DIR.parent.parent
 GIT_IGNORE_PATH = ROOT_DIR / ".gitignore"
 
+# Directories that must never be synced to Drive
+EXCLUDED_DIR_NAMES = {
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".ruff_cache",
+    ".tox",
+    "build",
+    "dist",
+}
+
 # Utils
 def parse_cloud_asset_extensions() -> Set[str]:
     """
@@ -57,6 +71,8 @@ def find_files() -> List[Path]:
     out = []
     for p in ROOT_DIR.rglob("*"):
         if not p.is_file():
+            continue
+        if any(part in EXCLUDED_DIR_NAMES for part in p.parts):
             continue
         if ".git" in p.parts:
             continue

@@ -1,52 +1,17 @@
-# Author: Wojciech Kośnik-Kowalczuk WKK
-# Julia set rendering classes
-
-# TODO:
-# - dostosuj typy (uint8, uint8, npmath)
-# - refaktoryzacja julia2gif
-# - dodaj julia2return_value
-# - dodaj mapowania:
-#   wlasne (wartosc po wartosci)
-# - mozesz dodac antyaliasing albo inna funkcjonalnosc poprawiajaca obraz
-# - dodaj funkcje do renderowania obrazów o wielkiej rozdzielczosci
-#   poprzez podzial na mniejsze obrazy i ich renderowanie osobno
-#   zapisywanie do pliku skompresowanego np jpg i konkatanacje
-# - file_path: dodaj mozliwosc wlasnej nazwy pliku
-# - zmień format na jpg i mpg
-# - julia2matplotlib
-# - rozdziel klase na julia i mandelbrot
-
-# TODO: (ideas for renders)
-# - mandelbrot set
-# - tabs in chrome
-# - sin moving sideways
-# - zoom
-# - changing mag (and other parameters)
-# - f(z) = z^alpha + c
-# - f(z) = z^2 + c, c = 0.7885e^i*alpha, alpha = (0, 2pi)
-# - mandelbrot to julia
-# - burning ship
-
-
-
-# IMPORTS
 import re                                       # regular expressions (file name string creation)
 import os                                       # path 
 import math                                     # sqrt
+import pathlib                                  # path
 import time                                     # measuring time of rendering
 import numpy as np                              # array manipulation
 from PIL import Image                           # image manipulation
 from functools import reduce                    # file name string creation
 import matplotlib.pyplot as plt                 # colormaps
-# adding path to sys paths so loading bar would import when script called as subprocess
-import sys
-script_dir = os.path.dirname(os.path.realpath(__file__))
-if script_dir not in sys.path:
-    sys.path.insert(0, script_dir)
-from loading_bar import LoadingBar              # loading bar
 from PIL import PngImagePlugin as pip           # image metadata
 from sympy import sympify, lambdify, symbols    # sympy expression for atractor
+from Src.Utils.loading_bar import LoadingBar    # Loading bar for rendering progress
 
+__all__ = ["Julia2png", "Julia2gif"]
 
 # PARENT CLASS FOR RENDERING JULIA SETS
 class JuliaSetRenderer:
@@ -429,7 +394,6 @@ class JuliaSetRenderer:
     def file_path(): pass
     def render(): pass
 
-
 # RENDERING JULIA SETS INTO .PNG FILES
 class Julia2png(JuliaSetRenderer):
     '''
@@ -548,7 +512,7 @@ class Julia2png(JuliaSetRenderer):
                 data[im, re] = orbit
 
             # update loading bar
-            lb.update(iteration=im + 1, additional_info="atractor: " + self.atractor)
+            lb.update(iteration=im + 1, additional_info="atractor: " + self.atractor, skip_every_other=50)
 
         # close loading bar
         print(f"\033[Fcalculating orbits (pixelwise)  DONE (time: {lb.close(display_statement=False):.2f}s)") 
@@ -604,13 +568,14 @@ class Julia2png(JuliaSetRenderer):
         # save data to image
         print("saving image...", end="")
         image = Image.fromarray(pixels, 'RGB')
-        image.save(self.file_path(), pnginfo=metadata)
+        pth = pathlib.Path() / "Src" / "Renders" / "renders_png" / self.file_path()
+        image.save(pth, pnginfo=metadata)
         print("\rsaving image                    DONE")
+        print("\nPicture rendered, you can find it in " + str(pth), end="\n")
 
         # print "histogram" of orbits
         if display_orbits_histogram:
             self.print_histogram(data)
-
         
 # RENDERING JULIA SETS INTO .GIF FILES
 class Julia2gif(JuliaSetRenderer):
@@ -755,7 +720,7 @@ class Julia2gif(JuliaSetRenderer):
                 frames += [self.render_frame(c_constant=c)]
 
                 # update loading bar
-                lb.update(iteration=i+1)
+                lb.update(iteration=i+1, skip_every_other=50)
 
         elif mode == "2":
 
@@ -979,105 +944,6 @@ class Julia2gif(JuliaSetRenderer):
         frames[0].save(self.file_path(), format='GIF', append_images=frames[1:], \
                        save_all=True, duration=frame_duration, loop=0)
 
-
 # RENDERING JULIA SETS AND RETURNING IT AS AN ARRAY
 class julia2return_value(JuliaSetRenderer):
     pass
-
-
-def parse_script_arguments(arg):
-    try:
-        const = complex(arg[1])
-    except:
-        print(f"const = {arg[1]} is not a proper complex number")
-        return None
-    
-    try:
-        plt.colormaps[arg[2]]
-        map = "plt " + arg[2]
-    except:
-        print(f"color map: {arg[2]} is not a proper color map")
-        return None
-    
-    try:
-        nums = arg[3][1:-1] # cut parenthesis
-        res_w, res_h = tuple(int(r) for r in nums.split(", "))
-    except:
-        print(f"resolution = {arg[3]} must be a tuple of intigers length 2")
-        return None
-    
-    try:
-        range = tuple(float(r) for r in arg[4][1:-1].split(", "))
-    except:
-        print(f"range = {arg[4]} must be a tuple of floats length 4")
-        return None
-    
-    return {'const': const, 'map': map, 'res_w': res_w, 'res_h': res_h, 'range': range}
-
-
-
-# TESTING
-if __name__ == '__main__':
-
-    arguments = parse_script_arguments(sys.argv)
-    if not arguments: sys.exit("Critical EROOR: Invalid arguments")
-
-
-    rnd = Julia2png(atractor="z^2+const", const=arguments['const'], \
-                    maps=[arguments['map']], \
-                    resolution_w=arguments['res_w'], resolution_h=arguments['res_h'], \
-                    range=arguments['range'])
-
-    rnd.render(vectorize_render=False)
-
-    # TODO:
-    # RANES !!! swap - to +
-    # initialize renderer
-    #renderer = Julia2png(atractor="z^2 + const", const= 10 + 10j, \
-    #                     maps=["plt twilight_shifted"], \
-    #                     resolution_w=4000, resolution_h=4000, range=(-1.4, 1.4, -1.4, 1.4), \
-    #                     max_ieration=256, max_magnitude=2)
-    
-
-    # render
-    #renderer.render(vectorize_render=False)
-    #renderer.render(vectorize_render=True)
-    
-
-    
-
-    
-    # initialize renderer
-    #renderer = Julia2gif(atractor="z^2 + const", const=-0.29609091 + 0.62491j , \
-    #                     maps=["plt twilight_shifted"], \
-    #                     resolution_w=800, resolution_h=800, range=(-0.9, 0.3, -0.3, 0.9), \
-    #                     max_ieration=256, max_magnitude=2)
-    
-    #renderer.render_iter(400, 50, False)
-
-    #renderer.render_zoom(start_range=(-2, 1, -1.5, 1.5), end_range=(-1.51755, -1.51745, -0.00005, 0.00005), \
-    #                     frames_amount=300, frame_duration=50)
-
-        
-    #renderer.sideway_slide_with_color_shift_and_const_shift(start_range=(-6, 6, -2, 2), \
-    #                                                        const_list=[0 +1.5j, 1 + 1j, -1.29904 + -0.75j], \
-    #                                                        slide_amount=10, \
-    #                                                        frames_amount=1500, frame_duration=100) 
-    
-
-    # initialize renderer
-    #renderer2 = Julia2gif(atractor="const * sin(z)", const=-1+0.5j, \
-    #                     maps=["root", "root", "root", "root", "plt viridis_r"], \
-    #                     resolution_w=1500, resolution_h=750, range=(-0.016,0.016,-0.009,0.009), \
-    #                     max_ieration=256, max_magnitude=2)
-
-    #renderer2.sideway_slide_with_color_shift_and_const_shift(start_range=(-6, 6, -2, 2), \
-    #                                                        const_list=[1 + 0j, 1 + 1j], \
-    #                                                        slide_amount=3, \
-    #                                                        frames_amount=400, frame_duration=100) 
-
-
-    #renderer.render_zoom(start_range=(-2,2,-2,2), end_range=(0.489999,0.490001,-0.509999,-0.510001), \
-    #                     frames_amount=50, frame_duration=20)
-
-                  

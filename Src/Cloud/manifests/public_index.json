@@ -180,387 +180,387 @@
     "drive_file_id": "1WwP_FDe_8KComUemBlJ7UqJl8FR28IRs"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_dat/julia_set_(0.34-0.05j)_res_1000x1000_ran_-2_2_-2_2.dat",
+    "path_relative_to_root": "Src/Renders/renders_dat/julia_set_(0.34-0.05j)_res_1000x1000_ran_-2_2_-2_2.dat",
     "sha256": "e019008468c2468f3a775c7211461c4fc9c56229db2a336d051a5bafdafeed58",
     "size_in_bytes": 2570380,
-    "drive_file_id": "1J6lWFcgc90I6CGi7Z4bGctK2oFLU2TNU"
+    "drive_file_id": "1qkFJuPUTM0MdAZKOA4K-as-Juw3Fzfgh"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_edits/julia_z^2 + const_c=(-0.4+0.6j)_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted_cut.jpg",
+    "path_relative_to_root": "Src/Renders/renders_edits/julia_z^2 + const_c=(-0.4+0.6j)_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted_cut.jpg",
     "sha256": "351ee9ff79f8a42191e4af2be1ad6f51d2e157cdd343aaea80c00e238e984ed1",
     "size_in_bytes": 371962,
-    "drive_file_id": "1aqdqaF-z_qGvJTGQ1TCazQVwGHnIZzwn"
+    "drive_file_id": "1Z4IvfG436Cf3NBcu9sOh7gl5fxFtzuvr"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_edits/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag cut.png",
+    "path_relative_to_root": "Src/Renders/renders_edits/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag cut.png",
     "sha256": "8ec8a0a45acea4c660bbef32bd147ff516e00876be936661bab4d6a4c335ee1a",
     "size_in_bytes": 473965,
-    "drive_file_id": "1JkhiXiu0THnCYw_mangM3i3lI7ev2cHy"
+    "drive_file_id": "1tq_-CBqWOVSpTPNIu3boKfbv6c8sMnmP"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/julia_const _sin(z)_c=(1+0.010000000000000009j)_res_1500x750_map_root_root_root_root_plt viridis_r.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/julia_const _sin(z)_c=(1+0.010000000000000009j)_res_1500x750_map_root_root_root_root_plt viridis_r.gif",
     "sha256": "c2d19deb30677367d4e65f2db4187f3e67ed4bfeb0e00f3784e1b97dffe08992",
     "size_in_bytes": 9970355,
-    "drive_file_id": "1FtsbYaW2o8shUvUawXKsUwT611BBo19h"
+    "drive_file_id": "17WCnj1D4x0RLwUhDAo3ZzLF-lAzf3T4-"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/julia_set_z^2 + c_res_1500x1500_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/julia_set_z^2 + c_res_1500x1500_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2.gif",
     "sha256": "e18cf194c03dc30b78220a66fdbd03340e0272c4a381caad7b1c6d0e290aa363",
     "size_in_bytes": 317818386,
-    "drive_file_id": "16DB7Lk3eCcYtycvL8peiTcC-8qDNr_05"
+    "drive_file_id": "1jXhB_wXbGNgO-6yFWP2dJ-vhAmPQVzoU"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/julia_set_z^2 + c_res_1500x1500_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_compresed.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/julia_set_z^2 + c_res_1500x1500_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_compresed.gif",
     "sha256": "fd8f1d10099ea6c243ef84a3995aba7a23c1391b1f737244c8ddf6428d66352a",
     "size_in_bytes": 24087353,
-    "drive_file_id": "1aOREdTLRYDRXTHaV2TXSCu8jCvo-vsPC"
+    "drive_file_id": "1H8x-WC5eypX5hrU3bJpcZbexk08T1oRq"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/julia_set_z^2 + c_res_800x800_ran_-2_2_-2_2_iter_256_mag_2.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/julia_set_z^2 + c_res_800x800_ran_-2_2_-2_2_iter_256_mag_2.gif",
     "sha256": "90e8421f4cde1dd0fcf5c7914d669f8a2f8a763223b7df924734929bad2678dd",
     "size_in_bytes": 1653771,
-    "drive_file_id": "18E96ulb3b6Y7KxABa1o7BD5iuqLspeX7"
+    "drive_file_id": "1r1u1sNHZrk5t86TPSQtAplDaoh7Nc0n4"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_2000x2000_map_cut 2_plt seismic.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_2000x2000_map_cut 2_plt seismic.gif",
     "sha256": "bb0db9c9576d215f0327cdef6388995e73a355e80ec8f83304f79fc32f25adc0",
     "size_in_bytes": 946353818,
-    "drive_file_id": "1XRewJdwuC8S0TvdTKosnKMG9nXFV0in4"
+    "drive_file_id": "10f4WwX8SrsrSZwBNJEjlNJWH12EMJGS2"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/julia_z^2 + const_c=(0.285+0.01j)_res_1000x1000_map_plt gist_stern.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/julia_z^2 + const_c=(0.285+0.01j)_res_1000x1000_map_plt gist_stern.gif",
     "sha256": "2fdfadb9e091352de86d732db279ef25366eb7edce0dc41a7a16050f1b16085d",
     "size_in_bytes": 36871252,
-    "drive_file_id": "1NUIPWqQAzKjd_b8Z2Ycs6BacH9Z-1fYR"
+    "drive_file_id": "1jhYV7mp8qtHS012p8-zsuc1qEK9huU9V"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/julia_z^2 + const_c=08_eialpha_res_1000x1000_map_plt twilight_shifted_fast.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/julia_z^2 + const_c=08_eialpha_res_1000x1000_map_plt twilight_shifted_fast.gif",
     "sha256": "421b453ab380d54d05abcc7378e49a7ed5107a6d9e5127f657841c039924445d",
     "size_in_bytes": 16298837,
-    "drive_file_id": "1uv9oVLGFNoHse2ASpWYPRKHPQ_iRWVfV"
+    "drive_file_id": "1MuSFBNH7OEir5CIThSJNeOTzGoEQymxF"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/julia_z^2 + const_c=08_eialpha_res_1000x1000_map_plt twilight_shifted_slow.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/julia_z^2 + const_c=08_eialpha_res_1000x1000_map_plt twilight_shifted_slow.gif",
     "sha256": "72557fde9e58e226422e66be59d824a37345ba92afae5f0cc82c272f1d4de2fa",
     "size_in_bytes": 32776378,
-    "drive_file_id": "1GEq65qFeTKiQmvhIL6KDCFvuzgS5-z5q"
+    "drive_file_id": "1AoGHwzeYvxjldVT2XLoKAYumkntsPAtY"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/lin_Julia_set_iter_z^2 + const_res_800x800.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/lin_Julia_set_iter_z^2 + const_res_800x800.gif",
     "sha256": "d8bf047f8a78173f325eb0c9464a91fc61598312ef6620abeea1d46cb2bcba0a",
     "size_in_bytes": 127375775,
-    "drive_file_id": "1a1JDrXiiwlINJeZqUpDvaVDXmRxsXWPY"
+    "drive_file_id": "1hhx6Tx2sqPobGd3l7-XUPjZDUBs605aD"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/log_Julia_set_iter_z^2 + const_res_500x500.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/log_Julia_set_iter_z^2 + const_res_500x500.gif",
     "sha256": "c4a1ba2ca4f6f74b43e7e054a5c91e6a51d29ad79cf0e9545b60428282e912f8",
     "size_in_bytes": 27054970,
-    "drive_file_id": "1VkqEghtnMgZ-aVp8h5niyKKJkS2upd5n"
+    "drive_file_id": "19H3ssk2wpIQj-Gj25sfCMOsTciUr9pZX"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt nipy_spectral.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt nipy_spectral.gif",
     "sha256": "9fa7178c87d889229748e1d981abc615f5a9bdc00957b382fd3ca885e664b171",
     "size_in_bytes": 39829202,
-    "drive_file_id": "1A6WqM9W2umyCxxnmEuAXY2vrVbYWTT1b"
+    "drive_file_id": "1PYBkY3diJHIenzqVHrNxYgYxFj0YUGvs"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt nipy_spectral_compressed.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt nipy_spectral_compressed.gif",
     "sha256": "bd76df05a53a9f0aeeb7654a96e48b520ce126543a069bef08184d751ac33e7b",
     "size_in_bytes": 11807069,
-    "drive_file_id": "19-e_NfygGfVHY4h5AdHr_5GW2Q_HAJ2r"
+    "drive_file_id": "1fsndBGuqxTvVmHRyezPrZ4fTsn8xvu8P"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_gif/Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt ocean_r.gif",
+    "path_relative_to_root": "Src/Renders/renders_gif/Mandelbrot_z^2 + const_c=0_res_1080x1080_map_plt ocean_r.gif",
     "sha256": "2f5529e6d1d2664087e37d75b9e03de915a84ca3a4a9786b805f44af62c5ea0d",
     "size_in_bytes": 87399374,
-    "drive_file_id": "1dzARAh1kjYfXvL2hna-0OTE6ZOi4ZOtC"
+    "drive_file_id": "1yC2AppBn1nyzQo-ETLvlxSCr6Ie-jRtz"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_10000x2000_ran_-2_2_-10_10_iter_256_mag_500_map_root_pltd RdPu.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_10000x2000_ran_-2_2_-10_10_iter_256_mag_500_map_root_pltd RdPu.png",
     "sha256": "f2939d31e95fadba6536782fb77d07632def3b401b6d807dd54eac6294ca0860",
     "size_in_bytes": 4349864,
-    "drive_file_id": "1sfGlrR-I0raZK6XDQKfqfF7J3gIo06-f"
+    "drive_file_id": "1j8SWDpvUstI71Wdn6HgWmCSYDYXx1Cv6"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_16000x9000_ran_-6_6_-6_6_iter_256_mag_50_map_plt cubehelix.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_16000x9000_ran_-6_6_-6_6_iter_256_mag_50_map_plt cubehelix.png",
     "sha256": "379e6da54300e47d38948f760164d29ce3856cd50753e10f802cd32ab90f4c2c",
     "size_in_bytes": 39387119,
-    "drive_file_id": "1B5EOu9iE4UDAuXy4ZPK86nipOUv__vh9"
+    "drive_file_id": "11UNSiVXcZ3AEv5o_8hI3G48fqrjCSlcy"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_2000x200_ran_-0.2_0.2_-2_2_iter_50_mag_50_map_cut 10_root_plt gist_ncar.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_2000x200_ran_-0.2_0.2_-2_2_iter_50_mag_50_map_cut 10_root_plt gist_ncar.png",
     "sha256": "5bded857e2e8c2d66c623e96ade997ca1a1483be7ffbe2a3edc28abdc2c79382",
     "size_in_bytes": 66854,
-    "drive_file_id": "1RfIfLniO9ldgMrNHKYhYy3pIfc3TbpFX"
+    "drive_file_id": "160CuW2OEFeo_uejDnJkcwjYl29TrHGW4"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_2000x200_ran_-2_2_-20_20_iter_256_mag_500_map_root_plt RdPu.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_2000x200_ran_-2_2_-20_20_iter_256_mag_500_map_root_plt RdPu.png",
     "sha256": "01a85b83cbf5d301f9f110d374a5607a2ad4382a3d99cacf73d5f17c81f249d5",
     "size_in_bytes": 164617,
-    "drive_file_id": "1ai_KL43JOdDCrkZjRsKVQ3A_w8P3che8"
+    "drive_file_id": "1wT9p2NWzyYKhvNim7IOdR6MF-YZG95yK"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_2000x200_ran_-2_2_-20_20_iter_256_mag_500_map_root_root_pltd RdPu.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_2000x200_ran_-2_2_-20_20_iter_256_mag_500_map_root_root_pltd RdPu.png",
     "sha256": "48fd4d4122b867a83b2e10ad3e7d7cd222ee5d518c80d5cc87adc51e9bc69cf6",
     "size_in_bytes": 182592,
-    "drive_file_id": "1zCAELHXoyaa3PabaSfrggS2IsomAyAUQ"
+    "drive_file_id": "1vCHhF2EzolNWeKpf4d2OYV_tG-mhZxQm"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_3200x1800_ran_-6_6_-6_6_iter_256_mag_50_map_root_rev_plt cubehelix.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_3200x1800_ran_-6_6_-6_6_iter_256_mag_50_map_root_rev_plt cubehelix.png",
     "sha256": "34a10ed88d63b4cbfdf29ca95036a1312721261b5687a25c83822d0a6714c5a8",
     "size_in_bytes": 1300628,
-    "drive_file_id": "1_8qCm-yPBiNWewPTlSTu54-pl1M7LQfx"
+    "drive_file_id": "1HbGje6NvzGaoABFihqeOgKREVVP7BZWm"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_3200x1800_ran_-9_9_-16_16_iter_256_mag_500_map_plt nipy_spectral.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_3200x1800_ran_-9_9_-16_16_iter_256_mag_500_map_plt nipy_spectral.png",
     "sha256": "da8d5ff91eb42cecc28d49e8425427875e22a2e9046d870d81b3946c4b81167b",
     "size_in_bytes": 634382,
-    "drive_file_id": "1a6iXpFwzHn7MxKJfX5DDHhKXJzzQH7Br"
+    "drive_file_id": "1oDx2w0J_FnJZygTfbMXMtgS8dm36gFiv"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_500x500_ran_-2_2_-2_2_iter_1025_mag_2_map_cut 10_root_plt gist_ncar.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_500x500_ran_-2_2_-2_2_iter_1025_mag_2_map_cut 10_root_plt gist_ncar.png",
     "sha256": "578dfcb929c38a03c7ec18c667800bd1b2d0a53488820c9dfcb49aee71d8c1f7",
     "size_in_bytes": 28086,
-    "drive_file_id": "14xMwPNyNCj50N-b9-KBEaTVm1Qha-vAj"
+    "drive_file_id": "1c2kEeWY6HsAEwq_FUNw0xTgjdzBXZUNx"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_500x500_ran_-2_2_-2_2_iter_1025_mag_2_map_cut 10_root_pltd flag.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_500x500_ran_-2_2_-2_2_iter_1025_mag_2_map_cut 10_root_pltd flag.png",
     "sha256": "714f7bf02e381394871683511d37abbde4cc626feb92ae6655f9ab93ecc98d69",
     "size_in_bytes": 34003,
-    "drive_file_id": "1DI60VSbx9VENH3PR7qo4FCqurQzYK6UH"
+    "drive_file_id": "1gS8yTqYy7J6x3cICV3ntafBIP8Md01l7"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_500x500_ran_-2_2_-2_2_iter_256_mag_2_map_cut 10_root_pltd flag.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_500x500_ran_-2_2_-2_2_iter_256_mag_2_map_cut 10_root_pltd flag.png",
     "sha256": "bbfaa3b0def1836edae6792539f015576a8aacbeb985865283fe30d7d4543ccf",
     "size_in_bytes": 23497,
-    "drive_file_id": "1y0SdCAV4ua6nzh-9Ra6RhNeZ3qiVB33Q"
+    "drive_file_id": "1210GcdHe95Ki3_a9tXO9mNhyD_ox2oGX"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/_res_500x500_ran_-2_2_-2_2_iter_256_mag_2_map_cut 20_root_pltd twilight_shifted.png",
+    "path_relative_to_root": "Src/Renders/renders_png/_res_500x500_ran_-2_2_-2_2_iter_256_mag_2_map_cut 20_root_pltd twilight_shifted.png",
     "sha256": "d04eec2af7dbd2a23694e05a721a9a58c38014eb487242da7379d9730df65110",
     "size_in_bytes": 28674,
-    "drive_file_id": "1NTalacQwsNa3auEr90yfcCK-xC44jxoM"
+    "drive_file_id": "11USQR5pbhK_uzn2Py0bcS-APYGo9UDZh"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_1600x900_ran_-0.9_0.9_-1.6_1.6.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_set_z^2 + c_res_1600x900_ran_-0.9_0.9_-1.6_1.6.png",
     "sha256": "8caf8b7dd084a0590171c82e99dcb8f9b0380dd5ed46c9a1bcada3d0d92c0f2b",
     "size_in_bytes": 522499,
-    "drive_file_id": "1s5_khWX7n8ZPOFHJgv3FYPKx-YUphLfl"
+    "drive_file_id": "1UeVWGkTv1kundDY7giXJO5w-VigpzgwN"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_4000x2000_ran_-0.5_0.5_-1_1.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_set_z^2 + c_res_4000x2000_ran_-0.5_0.5_-1_1.png",
     "sha256": "ce8d95d11a82518ab021f2e8b7fc10b7baa3d2f8a408cef6205d8aee195ddd4b",
     "size_in_bytes": 742059,
-    "drive_file_id": "1JSq_usZWJMxaEpDa86MCs4w3pXLL2G_j"
+    "drive_file_id": "1oCsbT5qeyutJiIziv9fBo57EJkL5InOU"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_4000x4000_ran_-1.5_1.5_-1.5_1.5.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_set_z^2 + c_res_4000x4000_ran_-1.5_1.5_-1.5_1.5.png",
     "sha256": "a92b2109abae47f22df0dbc0c77abe875e633f152454eddcf940b82076eae047",
     "size_in_bytes": 5954934,
-    "drive_file_id": "1DMya0tqx-cFREDlobpCz4Pq26f5k8aHw"
+    "drive_file_id": "10tmBgPmj9WrwtPv6aWxUhjVSjuBdohO_"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_4000x4000_ran_-2_2_-2_2.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_set_z^2 + c_res_4000x4000_ran_-2_2_-2_2.png",
     "sha256": "98e8e7fb3d615c47f8d66c46285e76a26dc0372e7fbf3e597e79fcae384af321",
     "size_in_bytes": 173778,
-    "drive_file_id": "16emtvPrz2dGG6JxM_2AsQCw8X5kAf_q4"
+    "drive_file_id": "1RlJ3itA25qS6LmEMFU-SiZgEC8_Dq3fb"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_4400x2200_ran_-0.5_0.5_-1_1.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_set_z^2 + c_res_4400x2200_ran_-0.5_0.5_-1_1.png",
     "sha256": "667bfc938024b292be485f39c1c4b1cb9a260725f102f246f7bdc367123ffe52",
     "size_in_bytes": 945073,
-    "drive_file_id": "1wiAQuBQPfsYjpnoKm46pGlQSk1oIqpc4"
+    "drive_file_id": "17rlC0bDcF5qBIJ_Ze6546-MaNo_zFBmB"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_5000x5000_ran_-0.3_0.3_-0.3_0.3.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_set_z^2 + c_res_5000x5000_ran_-0.3_0.3_-0.3_0.3.png",
     "sha256": "2cd7588f9b1966992cd350dd58284ff240b34bf3b158303b06794001828c975f",
     "size_in_bytes": 21119138,
-    "drive_file_id": "1K0HoaXlg7mI-g8ogh9W5vjM-MgayfvCZ"
+    "drive_file_id": "1XFyh8cfhX6vCZByp_AQlEjrfkVhZT61Z"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_550x350_ran_-1.2_1.2_-2.2_2.2.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_set_z^2 + c_res_550x350_ran_-1.2_1.2_-2.2_2.2.png",
     "sha256": "7d4ba0b7408ed50c6ca7323f77efd16f831c96e4c84cdcce34d6a5a2030989ec",
     "size_in_bytes": 65604,
-    "drive_file_id": "1M0j1jHQ1l_6GmM5hHe55YHQBOeloq28w"
+    "drive_file_id": "1y4q2rYDL-JZREd-voMLmnivmyHi_rgaZ"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_set_z^2 + c_res_6000x3000_ran_-0.5_0.5_-1_1.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_set_z^2 + c_res_6000x3000_ran_-0.5_0.5_-1_1.png",
     "sha256": "6b7aeae8b5aa1f0a0a0446c9d252315ba3828aa96a02298e2aca5f0bdf1d2728",
     "size_in_bytes": 3007925,
-    "drive_file_id": "1gfG-HIhNndOyMQzmAVqQW0m8qj6ZmsNI"
+    "drive_file_id": "10_y2xJLsHYAqvtEXUEhvXkXEbYcw1u5D"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_sin(z) _const_c=(1+1j)_res_10000x10000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_plt flag.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_sin(z) _const_c=(1+1j)_res_10000x10000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_plt flag.png",
     "sha256": "f65910fd89d8874e879ddd86bae3c1c0f25ff1ed485a7d99c5fb5bb2e4f195c9",
     "size_in_bytes": 12179502,
-    "drive_file_id": "1FCZXgZPTe3MtyYB2bJUVcgglcbUl8k35"
+    "drive_file_id": "1qqryO4jPGcm1ZA2Nq0l2DPEk160Fd7xf"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_sin(z) _const_c=(1+1j)_res_10000x10000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_plt flag_bright.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_sin(z) _const_c=(1+1j)_res_10000x10000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_plt flag_bright.png",
     "sha256": "1fa3753aa5eda72e259f3af293e6aeef307223d7245fb237b0b49fdab5ddb4c3",
     "size_in_bytes": 17441771,
-    "drive_file_id": "1TZCys3z0fj_dwRZEOUvxvFAOYkqH04CX"
+    "drive_file_id": "1HE3USfiS5tQaHXYPpke61XM4KZzEiIcF"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_sin(z) _const_c=(1+1j)_res_1000x1000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_mod 3_add 5_plt flag.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_sin(z) _const_c=(1+1j)_res_1000x1000_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_mod 3_add 5_plt flag.png",
     "sha256": "16ffdbffdbd3132b6a3431aeed63e9b7f4ed972ca8beacb7bf29b91fdf4f1bc6",
     "size_in_bytes": 282419,
-    "drive_file_id": "1q1aOqCU1NqV4dFCEsxKOj8aXBc8zLnpO"
+    "drive_file_id": "1KTz0WH0iNUB3IcecBEXgfU_EArxwGz4N"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_sin(z) _const_c=(1+1j)_res_400x400_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_mod 3_plt flag.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_sin(z) _const_c=(1+1j)_res_400x400_ran_-1.5_2.5_-1.5_2.5_iter_50_mag_50_map_mod 3_plt flag.png",
     "sha256": "3ff6024bb49f8dabec82d0152ee191b273d2c8130167ffc9fd0f1778eb2351e3",
     "size_in_bytes": 62014,
-    "drive_file_id": "1OsrJ_ZdZHarWLebZZEqqJpcanF51_2uh"
+    "drive_file_id": "1Pk2D0HE-5iBtc_K_nZ7q-ult1QfRXWH1"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.45_0.55_-0.45_-0.55_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.45_0.55_-0.45_-0.55_iter_256_mag_1000_map_cut 2_plt seismic.png",
     "sha256": "15e12da00398a1ce3d7360e71b3e7f97dea525f361b6638fd7a3a0587bdcc860",
     "size_in_bytes": 141089,
-    "drive_file_id": "1cZWjb6OXx7wWPoClTD0Lo5CyitEVWLQo"
+    "drive_file_id": "148UmUHw0VdlRIgtM20FF7hm2aSLzBTr4"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.485_0.495_-0.505_-0.515_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.485_0.495_-0.505_-0.515_iter_256_mag_1000_map_cut 2_plt seismic.png",
     "sha256": "62282a16d7819df4c7d6fbcf45bde7be4906c487276668335e85df307f7d2bab",
     "size_in_bytes": 178334,
-    "drive_file_id": "1kD_LuA7bEzfiQ1Y38xpn1o8W6_TKTKC7"
+    "drive_file_id": "1Rx8u5gNdclCa9FcWblMNRy1M3bbZAjV5"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.4899_0.4901_-0.5099_-0.5101_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.4899_0.4901_-0.5099_-0.5101_iter_256_mag_1000_map_cut 2_plt seismic.png",
     "sha256": "763a5914802aeca1b44403afef58fd838f8acbd3e4dae21ae6505b9be14b9d40",
     "size_in_bytes": 143963,
-    "drive_file_id": "15yuKPmOKy1W1T6dwudEjYFGdwY2_-0u-"
+    "drive_file_id": "1hLnPIHm2b6qtSBJx-e_OjKFiFdx0P5EQ"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.48_0.49_-0.51_-0.51_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.48_0.49_-0.51_-0.51_iter_256_mag_1000_map_cut 2_plt seismic.png",
     "sha256": "a806894d7cab76660ef8e3f2f31696924cdb30e012613dd779028ee362505680",
     "size_in_bytes": 101566,
-    "drive_file_id": "1zStIP_37MuRvS67oihMGt4GxnqN8WkXa"
+    "drive_file_id": "1qL2oerc70X6o5P6tDCt7shMtO-20BLYx"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.49_0.49_-0.51_-0.51_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.49_0.49_-0.51_-0.51_iter_256_mag_1000_map_cut 2_plt seismic.png",
     "sha256": "02d57339e9a8c57d770bb76da2f1db851f65ef76ffd60c23c3b3b82a1ee64653",
     "size_in_bytes": 106164,
-    "drive_file_id": "1Gyw3zd0nKpc6wi66Pcdlchc7UtI_xV5H"
+    "drive_file_id": "1QKXrSycaoUdlSUJw6xlplsnd1Y8mHXE4"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.5_1.5_-1_0_iter_256_mag_1000_map_cut 2_plt seismic.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + c_c=0j_c=(-0.4+0.6j)_res_400x400_ran_0.5_1.5_-1_0_iter_256_mag_1000_map_cut 2_plt seismic.png",
     "sha256": "6f07022502e45a9b2cc04e7db2c29ab59df155afef2f893637d12cb720cffad2",
     "size_in_bytes": 103654,
-    "drive_file_id": "1RSJ-KlcLwG5CtSwVQkcNbzNHmkI7jtoJ"
+    "drive_file_id": "128vmLRBjazSKxaKQLiCIS7CkDaMLJSGr"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.4+0.6j)_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(-0.4+0.6j)_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
     "sha256": "55722f99f4dfcf2c5c2349ea22e25fc40201b83391cc79eb327de4fd9a0cc0e8",
     "size_in_bytes": 6264908,
-    "drive_file_id": "1SY5zDIxYyQMaBTGq5CFTs43qK4mrAkkQ"
+    "drive_file_id": "1_Fbi5e5Kf82JF3-eXGNkIpRNCKp_N8_L"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_1600x900_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_plt flag.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_1600x900_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_plt flag.png",
     "sha256": "8edc742a8db284b6ec14efdec79ea99f081f72de997b40d8450d60e0fc8d2682",
     "size_in_bytes": 795169,
-    "drive_file_id": "1EeyW1dphVz3211ZNs8s5ubCKU5DwHJA5"
+    "drive_file_id": "13GFGduTJ7qJlrjRlmubfX4r1PP9m9hnG"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-0.9_0.9_-1.6_1.6_iter_256_mag_2_map_cut 8_plt flag.png",
     "sha256": "1fb7649e88badb623d7267dd404e26c2bdf96de52ae469e421d0c348f8eb7867",
     "size_in_bytes": 2394916,
-    "drive_file_id": "1pj66y3s8LtHLlE3dKh24Tnfh7yHJPYmH"
+    "drive_file_id": "1MuMnOk6L9SVYEJyL_p7QCEU78v8s8W6K"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-1.6_1.6_-0.9_0.9_iter_256_mag_2_map_plt CMRmap.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_3200x1800_ran_-1.6_1.6_-0.9_0.9_iter_256_mag_2_map_plt CMRmap.png",
     "sha256": "9ba3307dcaaba3a79c1a859cb6b3e7b19a714b6ca9bec7e7f56efb28d7222573",
     "size_in_bytes": 3207352,
-    "drive_file_id": "1spc7nCyifRsTBSbNJix3FGI0B9HTaGRU"
+    "drive_file_id": "1MN6UVmMpxbdmapoOQzQV_qQTsXJa0XXx"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_400x400_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_map_pltd pink.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_400x400_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_map_pltd pink.png",
     "sha256": "69cadd633fc35c78b08e75308a871deef2c1b18952de9fb0939af208092fef35",
     "size_in_bytes": 237668,
-    "drive_file_id": "1nOPkrbQNfDHbXXIEK1QBU7rLE7W0QtVk"
+    "drive_file_id": "1ftRx2Tffo6T_wJrqfM37pkjUqRVDuNA-"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_400x400_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_map_root_pltd spring.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_400x400_ran_-0.5_0.5_-0.5_0.5_iter_256_mag_2_map_root_pltd spring.png",
     "sha256": "ba118b32a7f78ee37d5b851f6f9306520eabc8ce9fb8dd6e3ad57e8804e6576d",
     "size_in_bytes": 172032,
-    "drive_file_id": "1QyIkoD9Ky75dQDDiAKTIxzyvRBtYbA45"
+    "drive_file_id": "1RDIDm0NWqFcc9naRdJJaZGYekgQ-uWGa"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_6400x3600_ran_-0.016_0.016_-0.009_0.009_iter_256_mag_2_map_plt CMRmap.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_6400x3600_ran_-0.016_0.016_-0.009_0.009_iter_256_mag_2_map_plt CMRmap.png",
     "sha256": "0d8ff35bd7c43bcc7042ac3146c8f5bac578a6645de2d44f3cf79d72ceffb76c",
     "size_in_bytes": 7019224,
-    "drive_file_id": "1ONiJ_mqrLo3Nh6iQSIaFClAI_2It-C7r"
+    "drive_file_id": "10QGN1ulSLHAdKTKjosW57_lk-RRcB-w4"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_6400x3600_ran_-0.16_0.16_-0.09_0.09_iter_256_mag_2_map_plt CMRmap.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(-0.8+0.156j)_res_6400x3600_ran_-0.16_0.16_-0.09_0.09_iter_256_mag_2_map_plt CMRmap.png",
     "sha256": "9764e3682c979da231bb08927a8635ec146a7867d9c304585e435eda0f5969c6",
     "size_in_bytes": 16959256,
-    "drive_file_id": "18312zLi3kHr9W4SyRn-guQBMZqvLQOZ5"
+    "drive_file_id": "1cKdIM0Vq0q6D3McGzsqNz3eoWYOuqiaC"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-0.8+0.1j)_res_400x400_ran_-1.5_1.5_-1.5_1.5_iter_256_mag_2_map_pltd pink.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(-0.8+0.1j)_res_400x400_ran_-1.5_1.5_-1.5_1.5_iter_256_mag_2_map_pltd pink.png",
     "sha256": "df8da5a7b04e9e2c159f2e2f0f64f4b36ef7349d161b0136f67aa8b2a5adb09f",
     "size_in_bytes": 22862,
-    "drive_file_id": "1qJIeoHdbxbG7zb3q9Be9ulp-12niZbVq"
+    "drive_file_id": "1K4Ihl1onYfzPpbbp2fJYLDimDQuvmgm6"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(-1+0j)_res_5000x2500_ran_-2_2_-1_1_iter_256_mag_50_map_root_root_plt gist_heat.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(-1+0j)_res_5000x2500_ran_-2_2_-1_1_iter_256_mag_50_map_root_root_plt gist_heat.png",
     "sha256": "e9beaa201753c583bbb64962a6c23a48d70e9f5f2c57b83ca8f08c9ba65538b5",
     "size_in_bytes": 401653,
-    "drive_file_id": "1NzCAypMBRK04JHO9ssoKuODQMBYBvStM"
+    "drive_file_id": "1FXWyK7kynYMBQx5spRSjKM2id71sAo84"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=(0.35+0.35j)_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=(0.35+0.35j)_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
     "sha256": "b603c5f7792cf3811fe478f78be3151298a100e3620191dcdb748916badaedee",
     "size_in_bytes": 2677117,
-    "drive_file_id": "1tWHM-7MtLlUXA92-e-u_RJ5pcotdC2HX"
+    "drive_file_id": "1cSxg2H-Ow6QRY4lNgGpZYK-uFuxoXtEO"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt bone.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt bone.png",
     "sha256": "7d630da460b42d2d258aeff271d8ae097ab80a112add20722edac04321da6de4",
     "size_in_bytes": 48824,
-    "drive_file_id": "1JaM14QLObm4yfFLLMs9Q8E6dp8FStFW9"
+    "drive_file_id": "1a5MoTfXZJNxXrxSkBBBJ-1GNqexWhExH"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight.png",
     "sha256": "8ecd7efc01c7c755a10c14b0247d92932e6f375067499c3e564cdff6a1812d65",
     "size_in_bytes": 49685,
-    "drive_file_id": "1u9vYPnELiOVcKOewpAHcx1zn6DetT9yZ"
+    "drive_file_id": "1WCPb7nMcumEWBIxepnyPBJgBiwZCOA9u"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight_r.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight_r.png",
     "sha256": "13b69333d0341de0a03ad0ff081103d2690b8114d4369ec3346d6bbf589f97de",
     "size_in_bytes": 50243,
-    "drive_file_id": "18x_v6KHRy7H9ut6Z5XrwAFcN5lWcCHXd"
+    "drive_file_id": "1sP6rpOUZirhBdiGHxSRo90-99YO7OQkZ"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight_shifted.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=0_res_500x500_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt twilight_shifted.png",
     "sha256": "57e829d9b8dae6d28905d4d024ed21a4321cfce5b1fd8943aacff5f4436898de",
     "size_in_bytes": 50414,
-    "drive_file_id": "1RfCMp7Js6WoL7roeV3InTxhz22Lupjjo"
+    "drive_file_id": "1oGZEB9PUmwcQuId1KWQ-DN7DV9sQ6W10"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2 + const_c=0j_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2 + const_c=0j_res_4000x4000_-1.4_1.4_iter_256_mag_2_map_plt twilight_shifted.png",
     "sha256": "b1e37e65fc2449f77773b108023faca5adc6a38712812de9fefa65065a56f577",
     "size_in_bytes": 171727,
-    "drive_file_id": "1x7hNnFHZTRXYtfAlh-4cKyFz9z9qVem0"
+    "drive_file_id": "10pTWD9GrXmlz5v-6knfO0i2IqUM7W_va"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/julia_z^2+const_c=(0.285+0.01j)_res_10000x10000_ran_-1.5_1.5_-1.5_1.5_iter_256_mag_2_map_plt gist_stern.png",
+    "path_relative_to_root": "Src/Renders/renders_png/julia_z^2+const_c=(0.285+0.01j)_res_10000x10000_ran_-1.5_1.5_-1.5_1.5_iter_256_mag_2_map_plt gist_stern.png",
     "sha256": "3d23c8bc96e2b66548ccf4431629de06364708dc77f711abfe03af909776df96",
     "size_in_bytes": 12954257,
-    "drive_file_id": "1iYGsl4kZcjpTHFpLJ9r_XFJMuhQkmRrp"
+    "drive_file_id": "1wxFfRJm05bDCy1smBlfCAzWLS6oi3Sw3"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/Mandelbrot_z^2 + const_c=0_res_10000x10000_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt bone.png",
+    "path_relative_to_root": "Src/Renders/renders_png/Mandelbrot_z^2 + const_c=0_res_10000x10000_ran_-2.2_0.8_-1.5_1.5_iter_256_mag_4_map_root_root_cut 1_plt bone.png",
     "sha256": "4276b07755478c5e7261aab482308a4749b5d75345af85961546e1dd48350689",
     "size_in_bytes": 6221471,
-    "drive_file_id": "1CBslwBFA2-Tw1bc55gAghaF8rnCurIA0"
+    "drive_file_id": "1e43ASojaFMjCBBqwyhGIJEmL7mKF6z3d"
   },
   {
-    "path_relative_to_root": "Src/Renderers/renders_png/Mandelbrot_z^2 + const_c=0_res_1000x1000_ran_-0.744_-0.743_0.131_0.132_iter_256_mag_2_map_plt ocean_r.png",
+    "path_relative_to_root": "Src/Renders/renders_png/Mandelbrot_z^2 + const_c=0_res_1000x1000_ran_-0.744_-0.743_0.131_0.132_iter_256_mag_2_map_plt ocean_r.png",
     "sha256": "3b38f008cfabb86574136f482dbb018997ad2426e7982ee4716bb5a2c37f8a63",
     "size_in_bytes": 604595,
-    "drive_file_id": "1tw8IRwGkIWdnjrI5unyai5vMMQC5-YGT"
+    "drive_file_id": "1a0_xc2UURtqGW222utlxp-0hgfOL1XuH"
   }
 ]
