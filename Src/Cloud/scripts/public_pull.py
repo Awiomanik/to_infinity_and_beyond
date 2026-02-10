@@ -96,13 +96,13 @@ def main() -> int:
 
     # Check index exists and is valid
     if not INDEX_PATH.exists():
-        print(f"ERROR: Missing {INDEX_PATH}. You need to run the credentialed sync once and commit public_index.json.")
+        print(f"{RED_TXT}ERROR{DEFAULT_TXT}: Missing {INDEX_PATH}. You need to run the credentialed sync once and commit public_index.json.")
         return 2
 
     # Load and validate index
     items: list[dict] = json.loads(INDEX_PATH.read_text(encoding="utf8"))
     if not isinstance(items, list):
-        print("ERROR: public_index.json must be a list.")
+        print(f"{RED_TXT}ERROR{DEFAULT_TXT}: public_index.json must be a list.")
         return 2
 
     # Pre-download plan and summary
@@ -181,7 +181,7 @@ def main() -> int:
                 print(f"WARNING: failed to compute sha256 for existing file: {dst}")
                 print(f"Repo path: {repo_rel}")
                 print(f"Expected sha256: {expected}")
-                print(f"Error: {type(e).__name__}: {e}")
+                print(f"{RED_TXT}Error{DEFAULT_TXT}: {type(e).__name__}: {e}")
                 ans = input("Continue download anyway (treat as needing download)? (y/n) ").strip().lower()
                 if ans == "y":
                     # proceed to download/overwrite below (do not continue)
@@ -210,9 +210,9 @@ def main() -> int:
             download_drive_file(fid, dst)
             downloaded += 1
         except RuntimeError as e:
-            print(f"ERROR: failed to download {repo_rel}")
+            print(f"{RED_TXT}ERROR{DEFAULT_TXT}: failed to download {repo_rel}")
             print(f"Reason: {e}")
-            print(f"Download via browser: https://drive.google.com/file/d/{fid}/view to {dst}")
+            print(f"Download via browser: https://drive.google.com/file/d/{fid}/view \nto {dst}")
             ans = input("Skip this file and continue? (y/n) ").strip().lower()
             if ans == "y":
                 failed += 1
