@@ -73,7 +73,6 @@ def download_drive_file(file_id: str, out_path: Path) -> None:
                     "Drive returned an HTML interstitial that this script can't bypass "
                     "(permission/quota/sign-in/abuse or changed layout).\n"
                     f"file_id={file_id}\n"
-                    f"Open in browser: https://drive.google.com/file/d/{file_id}/view"
                 )
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -213,7 +212,7 @@ def main() -> int:
         except RuntimeError as e:
             print(f"ERROR: failed to download {repo_rel}")
             print(f"Reason: {e}")
-            print(f"Open in browser: https://drive.google.com/file/d/{fid}/view")
+            print(f"Download via browser: https://drive.google.com/file/d/{fid}/view to {dst}")
             ans = input("Skip this file and continue? (y/n) ").strip().lower()
             if ans == "y":
                 failed += 1

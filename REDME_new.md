@@ -21,7 +21,7 @@ After cloning the repo, **binary assets are NOT present locally by default**.
 To restore all files from the cloud:
 
 ```bash
-poetry install --no-root
+poetry install
 poetry run python -m Src.Cloud.scripts.public_pull
 ```
 
