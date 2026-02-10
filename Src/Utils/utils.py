@@ -9,6 +9,8 @@ from pathlib import Path
 RED_TXT: str = "\033[31m"
 DEFAULT_TXT: str = "\033[0m"
 GREEN_TXT: str = "\033[32m"
+NEGATIVE_TXT: str = "\033[7m"
+CLEAR_LINE_TXT: str = "\033[1A\033[2K"
 
 BINARY_EXTS = {
     ".png", ".jpg", ".jpeg", ".gif", ".tiff", ".bmp", ".webp", ".svg",

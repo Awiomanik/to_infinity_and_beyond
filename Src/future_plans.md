@@ -21,6 +21,8 @@ this file contains list of features, improvments and generally ideas of what can
 - [ ] Integrate anti-aliasing when ready
 - [ ] Introduce functions for rendering high-resolution images by dividing them into smaller images and rendering them separately, then saving to a compressed file such as jpg, and finally concatenating them
 - [ ] file_path: Add the option to specify a custom file name
+- [ ] finnish help message in rendering_tool_constants
+- [ ] validate input for colors map selectionin in rendering_tool
 
 
 ### If time allows:

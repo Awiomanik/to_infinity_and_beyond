@@ -77,6 +77,37 @@ This project prioritizes explicit, manual workflows to avoid data loss.
 If something is missing, the most likely cause is skipping cloud synchronization.
 
 
+- `Rendering_tool` jest modułem projektu i **nie powinien być uruchamiany jako standalone script**.
+- Narzędzie zakłada uruchamianie przez środowisko Poetry:
+  
+  `poetry run python -m Src.Rendering_tool.Rendering_tool`
+
+- Kod nie może polegać na aktualnym katalogu roboczym (CWD).
+  Wszystkie ścieżki do zasobów i rendererów powinny być rozwiązywane
+  względem lokalizacji modułu (`__file__`), nie `os.getcwd()`.
+
+- Renderery i pliki wyjściowe (PNG/GIF/DAT) są traktowane jako assety binarne
+  i **nie powinny trafiać do gita**. Obowiązują reguły `.gitignore` i pipeline chmurowy.
+
+- Struktura projektu jest w trakcie porządkowania.
+  README opisowe i interfejs użytkownika zostaną ustabilizowane później.
+
+Rendering tool uruchamiany jest przez entry point Poetry:
+`poetry run render`
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 
 # New README.md:
 <!---

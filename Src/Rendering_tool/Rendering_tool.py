@@ -2,47 +2,15 @@
 # Developt by: WKK
 
 # TODO:
-# - finnish help string
+# - validate input for colors map selectionin handle_selection - cast_to_string
 
 from prompt_toolkit import prompt
 from prompt_toolkit.key_binding import KeyBindings
 from prompt_toolkit.shortcuts import clear
-import subprocess
-import os
 import time
-
-title ="""
-____________  ___  _____ _____ ___  _      ______ _____ _   _______ ___________ ___________ 
-|  ___| ___ \/ _ \/  __ \_   _/ _ \| |     | ___ \  ___| \ | |  _  \  ___| ___ \  ___| ___ \\
-| |_  | |_/ / /_\ \ /  \/ | |/ /_\ \ |     | |_/ / |__ |  \| | | | | |__ | |_/ / |__ | |_/ /
-|  _| |    /|  _  | |     | ||  _  | |     |    /|  __|| . ` | | | |  __||    /|  __||    / 
-| |   | |\ \| | | | \__/\ | || | | | |____ | |\ \| |___| |\  | |/ /| |___| |\ \| |___| |\ \ 
-\_|   \_| \_\_| |_/\____/ \_/\_| |_|_____/ \_| \_\____/\_| \_/___/ \____/\_| \_\____/\_| \_|
-\n\n"""   
-
-help_message = """
-Welcome to the Fractal Renderer!
-
-This nifty tool is your gateway to the mesmerizing world of Julia set fractals. Dive in and bring mathematical beauty to life!
-
-
-Navigating the Main Menu
-
-To explore your options:
-- Use \u2191 and \u2193 (arrow keys) to glide through the actions available.
-- Press the Enter key to select the \033[7mhighlighted\033[0m option.
-
-
-What's on the Menu?
-
-- RENDER: Select this, and we'll start painting the fractal PNG picture with the parameters you've set, visible right on your screen.
-
-... (to be continued)
-
-
-For more information about fractal rendering, we highly encourage You to familiarize with main document included in this paper:
-"Holomorphic_dynamics_an_Odyssey_from_Chaos_to_Art"
-"""
+from Src.Rendering_tool.run_renderer import render
+from Src.Utils.utils import DEFAULT_TXT, NEGATIVE_TXT, CLEAR_LINE_TXT
+from .rendering_tool_constants import RENDERINF_TOOL_TITLE, RENDERING_TOOL_HELP_MESSAGE, OPTION_KEYS, FORMATS
 
 # Define default values
 values = {
@@ -64,9 +32,6 @@ def get_options_str(values):
         'EXIT'
     ]
 
-# Define options keys
-options_keys = ['render', 'const', 'map', 'resolution', 'range', 'help', 'exit']
-
 # Create a key bindings object
 kb = KeyBindings()
 index = [0]  # Current index of selected option ([] for closere)
@@ -86,56 +51,63 @@ def _(event):
 def _(event):
     event.app.exit(options_keys[index[0]])
 
-def cast_to_complex(input_str):
-    try:
-        # Assuming complex input is given as 'real+imagj' or 'real-imagj'
-        return complex(input_str)
-    except ValueError:
-        print("Invalid complex number. Please enter in the format real+imagj or real-imagj.")
-        return None
-
-def cast_to_string(input_str):
-    # TODO:
-    # - validate input
-    return input_str
-
-def cast_to_tuple(input_str):
-    try:
-        temp = tuple(map(int, input_str.split(',')))
-        if len(temp) != 2: return None
-        return temp
-    except ValueError:
-        return 
-
-def cast_to_range_tuple(input_str):
-    try:
-        temp = tuple(map(float, input_str.split(',')))
-    except:
+# Function to handle the selected option and perform corresponding actions
+def handle_selection(selected: str, values: dict) -> bool:
+    """
+    Handle the action corresponding to the selected menu option.
+    Args:
+        selected: the key of the selected option
+        values: dictionary of current parameter values
+    Returns:
+        bool: whether to continue the main loop (False to exit)
+    """
+    # Casting functions that convert user input string to the appropriate type for each option
+    def cast_to_complex(input: str) -> complex | None:
         try:
-            temp = tuple(map(int, input_str.split(',')))
+            # Assuming complex input is given as 'real+imagj' or 'real-imagj'
+            return complex(input)
+        except ValueError:
+            print("Invalid complex number. Please enter in the format real+imagj or real-imagj.")
+            return None
+
+    def cast_to_string(input: str) -> str:
+        return input
+
+    def cast_to_tuple(input: str) -> tuple[int, int] | None:
+        try:
+            temp = tuple(map(int, input.split(',')))
+            if len(temp) != 2: return None
+            return temp
         except ValueError:
             return None
-    if len(temp) != 4: return None
-    return temp
 
-cast_functions = {
-    'const': cast_to_complex,
-    'map': cast_to_string,
-    'resolution': cast_to_tuple,
-    'range': cast_to_range_tuple,
-}
+    def cast_to_range_tuple(input: str):
+        try:
+            temp = tuple(map(float, input.split(',')))
+        except:
+            try:
+                temp = tuple(map(int, input.split(',')))
+            except ValueError:
+                return None
+        if len(temp) != 4: return None
+        return temp
 
-formats = {'const': "expected format is #+#j or #-#j (complex number)",
-           'map': "possible color maps can be found at https://matplotlib.org/stable/gallery/color/colormap_reference",
-           'resolution': "expected format #,# (width,height in pixels)",
-           'range': "expected format: #,#,#,# (re_min, re_max, im_min, im_max where single values are floats)"}
-
-def handle_selection(selected, values):
+    # Map of option keys to their corresponding casting functions
+    cast_functions = {
+        'const': cast_to_complex,
+        'map': cast_to_string,
+        'resolution': cast_to_tuple,
+        'range': cast_to_range_tuple,
+    }
+    
+    # Main logic for handling the selected option
     if selected in cast_functions:
+
+        # Loop until valid input is received or user cancels
         while True:
             input_str = prompt(\
 f'Enter new value for {selected} (or type "cancel" to discard)\n\
-{formats[selected]}\n\
+{FORMATS[selected]}\n\
 ==> [Enter value]: ')
 
             if input_str.lower() == 'cancel':
@@ -162,56 +134,54 @@ f'Enter new value for {selected} (or type "cancel" to discard)\n\
     
     elif selected == 'help':
         clear()
-        print(title)
-        print(help_message)
+        print(RENDERINF_TOOL_TITLE)
+        print(RENDERING_TOOL_HELP_MESSAGE)
         input("\n\nPress enter to go back to main menu")
 
-    
     elif selected == 'render':
         print("initializing...\r", end='', flush=True)
-        render(values)
-        print("\nPicture rendered, you can find it in current catalog")
+        try:
+            render(values)
+            print("\nPicture rendered, you can find it in current catalog")
+        except Exception as e:
+            print(f"\nRender failed: {e}")
         input("PRESS ENTER TO CONTINUE")
         return True
     
     else:
         print(f'{selected} option not recognized')
+
     return True
 
-def render(values):
-    script_path = os.path.join(os.getcwd(), "Utils", "Renderers_still_in_development", "Julia_sets_renderers.py")
-    command = ["python", script_path, str(values['const']), str(values['map']), str(values['resolution']), str(values['range'])]
-
-    try:
-        subprocess.call(command)
-    except subprocess.CalledProcessError as e:
-        print("Error running the script:", e)
-
+# Main 
 def main():
+
+    # main loop
     continue_flag = True
     while continue_flag:
         clear()
-        print(title)
+        print(RENDERINF_TOOL_TITLE)
 
         options_str = get_options_str(values)
 
+        # print options with current selection highlighted
         for i, option in enumerate(options_str):
             if i == index[0]:
                 # reverse colors to highlight current option
-                print(f'\033[7m{option}\033[0m')
+                print(f'{NEGATIVE_TXT}{option}{DEFAULT_TXT}')
 
             else:
                 print(option)
             print()
         
         selected = prompt('\nUse arrow keys to navigate and Enter to choose option: ', \
-                          key_bindings=kb, default=options_keys[index[0]])
+                          key_bindings=kb, default=OPTION_KEYS[index[0]])
         
         if selected:
-            print("\033[1A\033[2K", end='')
+            print(CLEAR_LINE_TXT, end='')
             continue_flag = handle_selection(selected, values)
 
 
-# EXECUTE
+# ENTRY POINT
 if __name__ == '__main__':
     main()
